@@ -1,3 +1,5 @@
+<== [Chapter 1](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_01.md) -- [Chapter 3](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_03.md) ==>
+
 # Chapter 2
 
 -------
@@ -21,3 +23,5 @@ There are a number of important files in every NDK application that one should b
 ### build.gradle
 * The order and types of tasks being executed at build time
     * Wouldn't mess with it unless you need to
+    
+<== [Chapter 1](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_01.md) -- [Chapter 3](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_03.md) ==>

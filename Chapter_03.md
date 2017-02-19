@@ -1,3 +1,5 @@
+<== [Chapter 2](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_02.md) -- [Chapter 4](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_04.md) ==>
+
 # Chapter 3
 
 --------
@@ -20,3 +22,4 @@
     * [Stack Overflow post](http://stackoverflow.com/questions/31003863/gles-3-0-including-gl2ext-h)
     * Trust me, you want to have OpenGL ES 3.0+
 
+<== [Chapter 2](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_02.md) -- [Chapter 4](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_04.md) ==>

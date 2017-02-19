@@ -1,3 +1,5 @@
+<== [Chapter 0](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_00.md) -- [Chapter 2](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_02.md) ==>
+
 # Chapter 1
 
 Lets start off with the acronyms that you will seen thrown around so you are up to speed with it all. Note some people may find this painfully boring if they are not as new to this world of development.
@@ -38,3 +40,5 @@ Lets start off with the acronyms that you will seen thrown around so you are up 
 * A huge thing to understand is that the Tango is just an Anroid application which will follow the Anroid life cycle chart.
 ![Android Life Cylce](images/Chapter_01_IMG_001.png)
 * The really big idea to take from this is that there are event driven functions that will be called throughout the applications and are usually where most of the boilerplate code will go to begin with.
+
+<== [Chapter 0](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_00.md) -- [Chapter 2](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_02.md) ==>

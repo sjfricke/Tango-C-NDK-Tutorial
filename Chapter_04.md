@@ -1,3 +1,6 @@
+<== [Chapter 3](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_03.md) -- [Chapter 5](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_05.md) ==>
+
+
 # Chapter 4
 
 This is a very graphic heavy section as grapics is a vitale part of developing for the Tango
@@ -62,3 +65,5 @@ so you stuck around I see, where he is the laydown
     * Vertex vs Normal vs Textures vs Indices
 * How to handle when nothing appears on the screen
     * What if there is nothing on the debug log
+    
+<== [Chapter 3](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_03.md) -- [Chapter 5](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_05.md) ==>
