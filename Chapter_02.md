@@ -11,7 +11,7 @@ There are a number of important files in every NDK application that one should b
   - [AndroidManifest.xml](#androidmanifestxml)
   - [Application.mk](#applicationmk)
   - [build.gradle](#buildgradle)
-  - [Android.mk (Adding a library)](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_03.md)
+  - [Android.mk (Adding a library)](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_09.md)
 
 
 ## AndroidManifest.xml
@@ -26,7 +26,7 @@ There are a number of important files in every NDK application that one should b
     * Wouldn't mess with it unless you need to    
     
 ## Android.mk
-* Used to add libraries which is discuessed in [this chapter](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_03.md)
+* Used to add libraries which is discuessed in [this chapter](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_09.md)
 
     
 <== [Chapter 1](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_01.md) -- [Chapter 3](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_03.md) ==>
