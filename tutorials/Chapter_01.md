@@ -38,7 +38,7 @@ Let us start off with the acronyms that you will see thrown around so you are up
 
 ## The Android Event Cycle
 * A huge thing to understand is that the Tango is just an Android application which will follow the Android life cycle chart.
-![Android Life Cycle](images/Chapter_01_IMG_001.png)
+![Android Life Cycle](../images/Chapter_01_IMG_001.png)
 * The really big idea to take from this is that there are event driven functions that will be called throughout the applications and are usually where most of the boilerplate code will go to begin with.
 
 <== [Chapter 0](./Chapter_00.md) -- [Chapter 2](./Chapter_02.md) ==>

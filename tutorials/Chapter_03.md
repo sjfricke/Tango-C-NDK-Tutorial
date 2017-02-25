@@ -6,9 +6,9 @@
 
 ## Different Tango devices
 * As of now there are only **2** Tango powered devices
-    * The Tango Dev Kit ![Tango Dev Kit image](images/Chapter_03_IMG_001.png)
-    * Lenovo Phab 2 Pro ![Phab 2 Pro image](images/Chapter_03_IMG_002.png)
-    * **COMMING SOON** ASUS ZenFone AR ![ZenFone AR image](images/Chapter_03_IMG_003.png)
+    * The Tango Dev Kit ![Tango Dev Kit image](../images/Chapter_03_IMG_001.png)
+    * Lenovo Phab 2 Pro ![Phab 2 Pro image](../images/Chapter_03_IMG_002.png)
+    * **COMMING SOON** ASUS ZenFone AR ![ZenFone AR image](../images/Chapter_03_IMG_003.png)
     
 ### Dev Kit notes
 * The only thing to watch out for is if you have the Dev Kit is that the device being a few years older suffers from a few drawbacks
