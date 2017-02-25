@@ -11,6 +11,8 @@ If you get a **Undefined reference to ________** warning there is a good chance 
 
 # Android.mk 
 * **Really good** in depth source of details on Anroid.mk files can be [found here](http://android.mk/)
+* **ALSO** here is the offical guide sheet [from Google](https://developer.android.com/ndk/guides/android_mk.html)
+
 * This is where you list all the files you want to compile
 * If you add libraries, like tango_gl, need to include its source and headers
 * Lets take an example and break it down

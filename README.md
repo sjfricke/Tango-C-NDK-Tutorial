@@ -1,11 +1,14 @@
 # Tango-C-NDK-Tutorial
-Helping those who want to get involved in the realm of Augmented Reality
+Helping those who want to get involved in the realm of Augmented Reality.
 
 ------
 
 ## Who is this for?
-* Right now it is for the person who wants to get into Project Tango via the C/C++ API and found there was **NO** documentation anywhere else. My goal is to save you at least an hour of your life where I wasted five of mine trying to find these simple answer.
-* Note that this is a tutorial for both Tango and NDK
+* Right now this is for the person who wants to get into Project Tango via the C/C++ API and found there was **NO** documentation anywhere else (seriously, I am writing this out of frustration). My goal is to save you at least an hour of your life where I wasted five of mine trying to find these simple answesr.
+* **NOTE:** that this is a tutorial for both Tango and NDK and broken up to different sections if you only need help with a certain part
+
+## Project Tango
+* Project Tango is your best options to use true agumented reality technology with a plateform that many people have (Android). The support for Tango on smartphones is slowly rolling out and a great way to make AR applications that many people can use.
 
 ------
 
@@ -13,21 +16,26 @@ Helping those who want to get involved in the realm of Augmented Reality
 * PLEASE PLEASE **PLEASE** correct it! I am no expert by any means and I am just trying to help with what I can. I would **LOVE** this to become a community built guide!
 
 ## Table of Content
-* [Chapter 0](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_00.md)
-    * My disclaimer about this early set of tutorial notes
-* [Chapter 1](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_01.md)
-    * The basics and acronyms
-* [Chapter 2](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_02.md)
-    * Important Files
-* [Chapter 3](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_03.md)
-    * Tango devices
-* [Chapter 4](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_04.md)
-    * Graphics
-* [Chapter 5](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_05.md)
-    * Coordinate Systems
-* [Chapter 6](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_06.md)
-    * Tango NDK Project Structure
-* [Chapter 7](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_07.md)
-    * Adding a library
-* [Chapter 8](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_08.md)
-    * Java to C++ and back
+* [Chapter 0 - **General Info About Tutorial Notes**](./Chapter_00.md)
+* [Chapter 1 - **The 101 Basics**](./Chapter_01.md)
+    * Everything you need to know before you start your journey.
+* [Chapter 2 - **Android NDK**](./Chapter_02.md)
+    * How to get around a Android NDK application.
+* [Chapter 3 - **Starting a New Project**](./Chapter_03.md)
+    * How to start your Tango Project with detailed notes.
+* [Chapter 4 - **Graphics with Tango**](./Chapter_04.md)
+    * A guide how to handle the graphics with OpenGL ES.
+* [Chapter 5 - **The Tango Device**](./Chapter_05.md)
+    * General Tango device info.
+* [Chapter 6 - **The C/C++ API**](./Chapter_06.md)
+    * How to make use of the API.
+* [Chapter 7 - **Adding a library**](./Chapter_07.md)
+    * How to add libraries to your project.
+* [Chapter 8 - **Adding a GUI**](./Chapter_08.md)
+    * How to add a button and other GUI elements.
+* [Chapter 9 - **Debugging**](./Chapter_09.md)
+    * How to use adb and logcat to debug
+* [Chapter 10 - **Integrating OpenCV**](./Chapter_10.md)
+    * Adding OpenCV to your application
+* [Glossary - Termanology](./Glossary.md)
+    * A list of common acronym and other terms used.
