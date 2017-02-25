@@ -1,4 +1,4 @@
-<== [Chapter 3](./Chapter_03.md) -- [Chapter 5](./Chapter_05.md) ==>
+<== [Chapter 3](./Chapter_03.md) -- [Chapter 4.1](./Chapter_04_01.md) ==>
 
 
 # Chapter 4 - Graphics with Tango
@@ -12,4 +12,4 @@ This is a very graphic heavy section as graphics is a vital part of developing f
 * [Chapter 4.4](./Chapter_04_04.md)
 
 
-<== [Chapter 3](./Chapter_03.md) -- [Chapter 5](./Chapter_05.md) ==>
+<== [Chapter 3](./Chapter_03.md) -- [Chapter 4.1](./Chapter_04_01.md) ==>

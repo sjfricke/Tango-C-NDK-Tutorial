@@ -1,4 +1,4 @@
-<== [Chapter 2](./Chapter_02.md) -- [Chapter 4](./Chapter_04.md) ==>
+<== [Chapter 2](./Chapter_02.md) -- [Chapter 3.1](./Chapter_03_01.md) ==>
 
 # Chapter 3 - Starting a New Project
 
@@ -13,4 +13,4 @@ Here we are going to walk through setting up a new project using Android Studio.
 * [Chapter 3.6](./Chapter_03_06.md)
 * [Chapter 3.7](./Chapter_03_07.md)
 
-<== [Chapter 2](./Chapter_02.md) -- [Chapter 4](./Chapter_04.md) ==>
+<== [Chapter 2](./Chapter_02.md) -- [Chapter 3.1](./Chapter_03_01.md) ==>
