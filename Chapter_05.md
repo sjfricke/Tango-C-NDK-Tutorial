@@ -1,4 +1,4 @@
-<== [Chapter 4](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_04.md) -- [Chapter 6](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_06.md) ==>
+<== [Chapter 4](./Chapter_04.md) -- [Chapter 6](./Chapter_06.md) ==>
 
 
 # Chapter 5
@@ -36,4 +36,4 @@ Here is a Google image search showing the hand position to why it go its name
 ## The Tango Coordinate System
 
     
-<== [Chapter 4](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_04.md) -- [Chapter 6](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_06.md) ==>
+<== [Chapter 4](./Chapter_04.md) -- [Chapter 6](./Chapter_06.md) ==>

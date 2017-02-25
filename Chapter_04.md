@@ -1,4 +1,4 @@
-<== [Chapter 3](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_03.md) -- [Chapter 5](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_05.md) ==>
+<== [Chapter 3](./Chapter_03.md) -- [Chapter 5](./Chapter_05.md) ==>
 
 
 # Chapter 4
@@ -66,4 +66,4 @@ so you stuck around I see, where he is the laydown
 * How to handle when nothing appears on the screen
     * What if there is nothing on the debug log
     
-<== [Chapter 3](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_03.md) -- [Chapter 5](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_05.md) ==>
+<== [Chapter 3](./Chapter_03.md) -- [Chapter 5](./Chapter_05.md) ==>

@@ -1,4 +1,4 @@
-<== [Chapter 8](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_08.md) -- [Chapter 10](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_10.md) ==>
+<== [Chapter 8](./Chapter_08.md) -- [Chapter 10](./Chapter_10.md) ==>
 
 # Chapter 9
 
@@ -93,4 +93,4 @@ The `BUILD_SHARED_LIBRARY` is a variable provided by the build system that will 
 `$(call import-module,<name>)` A function that allows you to find and include the Android.mk of another module by name. A typical example is. This will look for the module tagged `<name>` in the list of directories referenced by your `NDK_MODULE_PATH` environment variable, and include its `Android.mk` automatically for you.
 
 
-<== [Chapter 8](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_08.md) -- [Chapter 10](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_10.md) ==>
+<== [Chapter 8](./Chapter_08.md) -- [Chapter 10](./Chapter_10.md) ==>

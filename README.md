@@ -37,5 +37,5 @@ Helping those who want to get involved in the realm of Augmented Reality.
     * How to use adb and logcat to debug
 * [Chapter 10 - **Integrating OpenCV**](./Chapter_10.md)
     * Adding OpenCV to your application
-* [Glossary - Termanology](./Glossary.md)
+* [**Glossary - Termanology**](./Glossary.md)
     * A list of common acronym and other terms used.

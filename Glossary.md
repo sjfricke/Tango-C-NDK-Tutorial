@@ -1,5 +1,5 @@
-<== [Chapter 10](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_10.md)
+<== [Chapter 10](./Chapter_10.md)
 
-# Chapter 10
+# Glossary
 
-<== [Chapter 10](https://github.com/sjfricke/Tango-C-NDK-Tutorial/blob/master/Chapter_10.md) 
+<== [Chapter 10](./Chapter_10.md) 
