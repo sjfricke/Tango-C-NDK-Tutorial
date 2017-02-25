@@ -16,26 +16,26 @@ Helping those who want to get involved in the realm of Augmented Reality.
 * PLEASE PLEASE **PLEASE** correct it! I am no expert by any means and I am just trying to help with what I can. I would **LOVE** this to become a community built guide!
 
 ## Table of Content
-* [Chapter 0 - **General Info About Tutorial Notes**](./Chapter_00.md)
-* [Chapter 1 - **The 101 Basics**](./Chapter_01.md)
+* [Chapter 0 - **General Info About Tutorial Notes**](./tutorials/Chapter_00.md)
+* [Chapter 1 - **The 101 Basics**](./tutorials/Chapter_01.md)
     * Everything you need to know before you start your journey.
-* [Chapter 2 - **Android NDK**](./Chapter_02.md)
+* [Chapter 2 - **Android NDK**](./tutorials/Chapter_02.md)
     * How to get around a Android NDK application.
-* [Chapter 3 - **Starting a New Project**](./Chapter_03.md)
+* [Chapter 3 - **Starting a New Project**](./tutorials/Chapter_03.md)
     * How to start your Tango Project with detailed notes.
-* [Chapter 4 - **Graphics with Tango**](./Chapter_04.md)
+* [Chapter 4 - **Graphics with Tango**](./tutorials/Chapter_04.md)
     * A guide how to handle the graphics with OpenGL ES.
-* [Chapter 5 - **The Tango Device**](./Chapter_05.md)
+* [Chapter 5 - **The Tango Device**](./tutorials/Chapter_05.md)
     * General Tango device info.
-* [Chapter 6 - **The C/C++ API**](./Chapter_06.md)
+* [Chapter 6 - **The C/C++ API**](./tutorials/Chapter_06.md)
     * How to make use of the API.
-* [Chapter 7 - **Adding a library**](./Chapter_07.md)
+* [Chapter 7 - **Adding a library**](./tutorials/Chapter_07.md)
     * How to add libraries to your project.
-* [Chapter 8 - **Adding a GUI**](./Chapter_08.md)
+* [Chapter 8 - **Adding a GUI**](./tutorials/Chapter_08.md)
     * How to add a button and other GUI elements.
-* [Chapter 9 - **Debugging**](./Chapter_09.md)
+* [Chapter 9 - **Debugging**](./tutorials/Chapter_09.md)
     * How to use adb and logcat to debug
-* [Chapter 10 - **Integrating OpenCV**](./Chapter_10.md)
+* [Chapter 10 - **Integrating OpenCV**](./tutorials/Chapter_10.md)
     * Adding OpenCV to your application
 * [**Glossary - Termanology**](./Glossary.md)
     * A list of common acronym and other terms used.
