@@ -5,7 +5,7 @@
 Good way to follow the graphic lesson is talking about the coordinate systems
 --------
 
-So there is a good chance you are smarter than me and this doesn't relate to you, but the coordinate system explain in the [Google Tango Guide](https://developers.google.com/tango/overview/coordinate-systems) didn't inherently make sense to me on first read. I am gonna try to clear up confusion to anyone who also was confused
+So there is a good chance you are smarter than me and this doesn't relate to you, but the coordinate system explain in the [Google Tango Guide](https://developers.google.com/tango/overview/coordinate-systems) didn't inherently make sense to me on first read. We are gonna try to clear up confusion to anyone who also was confused
 
 ## Right hand vs Left hand rule
 * This is a very basic principle in matrix algebra, but needs to understood quick before moving on. The idea is if I have a coordinate system such that
