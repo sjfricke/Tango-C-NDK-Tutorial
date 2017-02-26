@@ -22,9 +22,9 @@ We are going to break down the NDK build using this chart (photo cred: Aleksanda
 
 ## Sections
 * [Chapter 2.1 - Directory Layout](./Chapter_02_01.md)
-* [Chapter 2.2 - The Java Main Activity](./Chapter_02_02.md)
-* [Chapter 2.3](./Chapter_02_03.md)
-* [Chapter 2.4](./Chapter_02_04.md)
+* [Chapter 2.2 - The Java Source](./Chapter_02_02.md)
+* [Chapter 2.3 - The Java Native](./Chapter_02_03.md)
+* [Chapter 2.4 - The JNI Header](./Chapter_02_04.md)
 * [Chapter 2.5](./Chapter_02_05.md)
 * [Chapter 2.6](./Chapter_02_06.md)
 * [Chapter 2.7](./Chapter_02_07.md)

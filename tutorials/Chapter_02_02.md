@@ -1,6 +1,6 @@
 <== [Chapter 2.1](./Chapter_02_01.md) -- [Chapter 2.3](./Chapter_02_03.md) ==>
 
-# Chapter 2.2 - The Java Main Activity
+# Chapter 2.2 - The Java Source
 
 ![Java Main Activity](../images/Chapter_02_IMG_002.png)
 
@@ -14,6 +14,17 @@ Here our main activity is started. We will need to name this package as well
 
 We will also for the purpose of working with the Tango want to include a file to help initalize everything for us by go `import com.projecttango.examples.cpp.util.TangoInitializationHelper;`
 
-This file can be fround in the [sampleCode](../sampleCode/TangoInitializationHelper.java)
+This file can be found in the [sampleCode](../sampleCode/TangoInitializationHelper.java)
+
+## Inside the Activity
+* The two things to worry about your Main Activity is its where you handle all your events like `onCreate`, `onDestory`,etc.
+    * If you had GUI like buttons you will need to catch those 
+* You also need to create an instance of your renderer which I would advice making a new class and file for
+
+## The Renderer
+* The renderer is in charge of calling the `onDrawFrame` call to OpenGL ES each frame.
+* It also captures the event on `onGlSurfaceChanged` which is mainly if you rotate the screen orientation and have to resize the window.
+* If you plan to bring in assets you will need to use the Android `AssetManager`.
+    * This is because the NDK compresses all the files together and you will not be able to get a file pointer otherwise.
 
 <== [Chapter 2.1](./Chapter_02_01.md) -- [Chapter 2.3](./Chapter_02_03.md) ==>
