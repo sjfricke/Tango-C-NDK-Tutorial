@@ -4,7 +4,7 @@
 
 This section is all about the NDK and has nothing specific related to Tango, but you need to understand the NDK development realm before doing anything with the Tango.
 
-## NDK - what REALLY is
+## NDK
 * Well the long version is me telling you to watch this great [NDK Video Series](https://www.youtube.com/playlist?list=PL0C9C46CAAB1CFB2B) which is about 90 minutes long.
 * The first thing is to understand **why** you would use the Android NDK
     * If you are doing stuff that involves more need of real time data you will have a reason to use the NDK

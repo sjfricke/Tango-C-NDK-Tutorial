@@ -1,6 +1,6 @@
 <== [Chapter 4.1](./Chapter_04_01.md) -- [Chapter 4.3](./Chapter_04_03.md) ==>
 
-# Chapter 4.2
+# Chapter 4.2 - OpenGL ES part 1
 
 ## OpenGL ES
 
