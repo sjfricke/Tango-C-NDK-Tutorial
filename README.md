@@ -1,6 +1,9 @@
 # Tango-C-NDK-Tutorial
 Helping those who want to get involved in the realm of Augmented Reality.
 
+## WORK IN PROGRESS
+Currently still not complete with first draft, taking longer then wanted because I want it done right... hopfully by end of March this will be ready for anyone to use from start to finish
+
 ------
 
 ## Who is this for?
