@@ -22,9 +22,13 @@ This file can be found in the [sampleCode](../sampleCode/TangoInitializationHelp
 * You also need to create an instance of your renderer which I would advice making a new class and file for
 
 ## The Renderer
+* **NOTE:** This will go in depth about the graphic rendering in the next two chapters
 * The renderer is in charge of calling the `onDrawFrame` call to OpenGL ES each frame.
 * It also captures the event on `onGlSurfaceChanged` which is mainly if you rotate the screen orientation and have to resize the window.
 * If you plan to bring in assets you will need to use the Android `AssetManager`.
     * This is because the NDK compresses all the files together and you will not be able to get a file pointer otherwise.
+
+### package-info.java
+* You may find there is a `package-info.java` file. This file is purly for documentation and is used when generating Javadocs.
 
 <== [Chapter 2.1](./Chapter_02_01.md) -- [Chapter 2.3](./Chapter_02_03.md) ==>
