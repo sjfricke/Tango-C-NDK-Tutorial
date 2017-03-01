@@ -20,6 +20,8 @@ We are now heading over to our `jni` directory. You have ~~two~~ three options f
 
 ## JNI Data Types
 
+
+
 ## Setting up the JVM
 * We need to store a reference to the Java Virtual Machine so that we can call into the Java layer to trigger rendering
 
@@ -52,10 +54,6 @@ Java_com_projecttango_examples_cpp_augmentedreality_TangoJNINative_onGlSurfaceCh
     JNIEnv*, jobject, jint width, jint height) {
   app.OnSurfaceChanged(width, height);
 }
-
 ```
-
-
-
 
 <== [Chapter 2.3](./Chapter_02_03.md) -- [Chapter 2.5](./Chapter_02_05.md) ==>

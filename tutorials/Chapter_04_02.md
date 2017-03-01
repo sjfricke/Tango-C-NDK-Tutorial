@@ -4,9 +4,9 @@
 
 ## OpenGL ES
 
-So if you are already familier with OpenGL ES and know what it is all about then I congratulate you and advise to go to next chapter
+So if you are already familier with OpenGL ES and know what it is all about, Congratulation! You are advise to go to next chapter
 
-so you stuck around I see, where he is the laydown
+...so you stuck around I see, where he is the laydown
 
 ## What is OpenGL?
 * So first to answer this it is important you understand that a computer normally runs off of three parts, the CPU, RAM, and Hard Drive.
@@ -31,15 +31,18 @@ so you stuck around I see, where he is the laydown
         * **NOTE** that a 1080HD screen is 1080x1920 = 2 million pixels and if trying to run 90FPS that is 180 million pixels a second to calculate with only 11.1ms to get each frame out... Vulkan doesn't seem like a bad idea now talking about making AR more realistic.
             * Please don't try learning Vulkan without understanding graphical programming first as a whole, you **will not** find success with that
 
+## What is GLSL (shaders)
+
+
 ## OpenGL ES and my Tango
 * So you will need to write some OpenGL ES for your Tango application  if you plan on getting anything augmented to the world using the NDK.
-    * Please note if you wanted to make a game for Tango I would suggest looking into the Unity API as it is made for abstracting all of this for you.
+    * Please note if you wanted to make a game for Tango we would suggest looking into the Unity API as it is made for abstracting all of this for you.
 * You should assume OpenGL ES 3.1 as the lowest version to support for any production device
-* If you want help there is a nice [tango_gl repo](https://github.com/sjfricke/tango_gl) I personally forked from the Google samples to make more capable of advance tasks
+* If you want help there is a nice [tango_gl repo](https://github.com/sjfricke/tango_gl) we personally forked from the Google samples to make more capable of advance tasks
     * It is not a full fledge OpenGL library, but it takes care of the whole matrix math of outputing your renderings to the screen and moving on camera movement
 
 ## What is the fastest way to learn OpenGL ES
-* ... I was really hoping you weren't going to ask this, I personally was fortunate to take a course while studying in college on graphical programming. The real question is not "how do I learn OpenGL ES" but rather "how do I learn graphical programming and the whole graphic pipeline"
+* ... We were really hoping you weren't going to ask this, some of us may have personally have been fortunate to take a course while studying in college on graphical programming. The real question is not "how do I learn OpenGL ES" but rather "how do I learn graphical programming and the whole graphic pipeline"
 * This question can be taught in two ways
     * The theoretical mathematic  way of why matrix and linear algebra works
     * How do I get the most pixels flung to the screen as fast as possible
