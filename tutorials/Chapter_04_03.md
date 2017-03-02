@@ -2,6 +2,11 @@
 
 # Chapter 4.3 - OpenGL ES part 2
 
+# FOR NOW
+* Look here for a better explaination until this section is decided what it should be
+http://duriansoftware.com/joe/An-intro-to-modern-OpenGL.-Chapter-1:-The-Graphics-Pipeline.html
+
+
 In this section we are going to go through a run down of the entire graphic pipeline. **This is intended** for those with little to no knowledge to get somewhat up to speed what is going on. This also serves as a great review for those who haven't played with graphics in a while.
 
 **NOTE:** There is a (set of vocabulary)[#vocabulary] fo common words you might get stuck on
