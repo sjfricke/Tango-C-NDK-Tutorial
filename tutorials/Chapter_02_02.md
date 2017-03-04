@@ -14,7 +14,7 @@ Here our main activity is started. We will need to name this package as well
 
 We will also for the purpose of working with the Tango want to include a file to help initalize everything for us by go `import com.projecttango.examples.cpp.util.TangoInitializationHelper;`
 
-This file can be found in the [sampleCode](../sampleCode/TangoInitializationHelper.java)
+This file can be found in the [sampleCode](../sampleCode/java/TangoInitializationHelper.java)
 
 ## Inside the Activity
 * The two things to worry about your Main Activity is its where you handle all your events like `onCreate`, `onDestory`,etc.
