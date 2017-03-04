@@ -6,7 +6,7 @@ The easiest way to add a model to your AR world is via `.obj` files. These are e
 
 Each `.obj` file can have a pairing `.mtl` file which is the Material file. This file gives the color and possible image path for how the part of the UV it covers looks. 
 
-As of now there is no good way (that I know of at least) to read in the file since the entire NDK file is compressed and even with the use of the Asset_Manager the `.obj` file is just about unreachable and the *Hack* I found around it is to use one of these file names for the .obj file and pass it in the .obj loader anyway
+As of now there is no good way (that I know of at least) to read in the file since the entire NDK file is compressed and even with the use of the Asset_Manager the `.obj` file is just about unreachable and the *Hack* we found around it is to use one of these file names for the .obj file and pass it in the .obj loader anyway
 
 ```
 static const char* kNoCompressExt[] = {
@@ -18,5 +18,9 @@ static const char* kNoCompressExt[] = {
     ".amr", ".awb", ".wma", ".wmv"
 };
 ```
+
+# HELP
+
+If you know a better way to open and read an .obj file without having to change its extension, let us know!
 
 <== [Chapter 4.3](./Chapter_04_03.md) -- [Chapter 5](./Chapter_05.md) ==>
