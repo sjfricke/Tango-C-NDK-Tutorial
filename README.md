@@ -1,14 +1,13 @@
 # Tango-C-NDK-Tutorial
-Helping those who want to get involved in the realm of Augmented Reality.
+Helping those who want to get involved in the realm of Augmented Reality using both Google Project Tango and its C/C++ API.
 
 ## WORK IN PROGRESS
-Currently still not complete with first draft, taking longer then wanted because I want it done right... hopfully by end of March this will be ready for anyone to use from start to finish
+Currently still not complete with first draft due to being consumed with my studies at the University. There are many gaps blank and hopfully maybe you even are willing to help contribute to this project!    
 
 ------
 
 ## Who is this for?
-* Right now this is for the person who wants to get into Project Tango via the C/C++ API and found there was **NO** documentation anywhere else (seriously, this repo was start out of frustration). Our goal is to save you at least an hour of your life where we wasted five of mine trying to find these simple answers.
-* **NOTE:** that this is a tutorial for both Tango and NDK and broken up to different sections if you only need help with a certain part
+* Right now this is for the person who wants to get into Project Tango via the C/C++ API and found there was **NO** documentation anywhere else (seriously, this repo was started out of frustration). Our goal is to save you at least an hour of your life where we wasted five of mine trying to find these simple answers.
 
 ## Project Tango
 * Project Tango is your best options to use true agumented reality technology with a plateform that many people have (Android). The support for Tango on smartphones is slowly rolling out and a great way to make AR applications that many people can use.
@@ -17,9 +16,16 @@ Currently still not complete with first draft, taking longer then wanted because
 * PLEASE PLEASE **PLEASE** correct it! I am no expert by any means and I am just trying to help with what I can. I would **LOVE** this to become a community built guide!
 
 ## Community
-* I (sjfricke) started this with the attention to make this a community driven tutorial, so **we** are happy for all to help and let this grow.
+* I (sjfricke) started this with the attention to make this a community driven tutorial, so **we** are happy for all to help and hope that this grows.
 
 ------
+
+# BIG-IMPORTANT-NOTE
+* Working with Tango for a while we find working with it comes down to knowing 3 major components:
+    1. Android NDK
+    2. Graphics (OpenGL ES)
+    3. Tango API
+* Since some people are coming into this knowing none and some just want to learn to use the Tango API, we divided the book into 3 Sections which consist of its interal chapters.
 
 ## Table of Content
 * [Chapter 0 - **General Info About Tutorial Notes**](./tutorials/Chapter_00.md)
