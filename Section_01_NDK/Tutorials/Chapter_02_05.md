@@ -2,7 +2,7 @@
 
 # Chapter 2.5 - The Native Code
 
-![The Native Code](../images/Chapter_02_IMG_004.png)
+![The Native Code](../Images/Chapter_02_IMG_004.png)
 
 So now that we have our function called from the Java source we need to make sure it gets called in our native code
 

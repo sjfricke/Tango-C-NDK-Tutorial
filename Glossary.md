@@ -1,5 +1,3 @@
-<== [Chapter 10](./tutorials/Chapter_10.md)
-
 # Glossary
 
 * **abd**
@@ -24,21 +22,21 @@
 * **JVM**
     * Java Virtual Machine
     * Where tall Java code gets compiles and ran during run time
-* **[NDK](./tutorials/Chapter_02.md)**
+* **[NDK](./Tutorials/Chapter_02.md)**
     * Native Development Kit
     * Lets you run Native C++ code on the Android OS over using Java
     * This lets you have more control and better performance
-* **[OBJ](./tutorials/Chapter_04_04.md)**
+* **[OBJ](./Tutorials/Chapter_04_04.md)**
     * An acsii 3D object model that can be parsed to import data of a model
     * Most CAD programs export OBJ files
-* **[OpenCV](./tutorials/Chapter_10.md)**
+* **[OpenCV](./Tutorials/Chapter_10.md)**
     * Open Computer Visison
     * Used to get data and other information from a picture or a screen
-* **[OpenGL](./tutorials/Chapter_04_02.md)**
+* **[OpenGL](./Tutorials/Chapter_04_02.md)**
     * Open Graphic Library
     * Used to communicate code and data to your Graphic Card via an API
     * Used to produced high end graphics
-* **[OpenGL ES](./tutorials/Chapter_04_04.md)**
+* **[OpenGL ES](./Tutorials/Chapter_04_04.md)**
     * Open Graphic Library Embedded System
     * A lighter version of OpenGL found on mobile devices
 * **[SDK](https://developers.google.com/tango/apis/java/)**
@@ -55,5 +53,3 @@
 * **XAML**
     * Extensible Application Markup Language
     * How to create a layout style for and android app
-
-<== [Chapter 10](./tutorials/Chapter_10.md) 

@@ -2,7 +2,7 @@
 
 # Chapter 2.3 - The Java Native
 
-![Java Main Activity](../images/Chapter_02_IMG_008.png)
+![Java Main Activity](../Images/Chapter_02_IMG_008.png)
 
 Now that we have some code to handle the Java source we need a way to send that source data down to the Native code layer. We will be declaring a series of a native Java function headers that we planned to get called in our Native code layer, also known as JNI (Java Native Interface). The best method is to create another file in your Java directory called `TangoJNINative.java`
 

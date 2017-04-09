@@ -30,7 +30,7 @@ and I move towards `Y` from `X` does `Z` go **INTO** the screen away from you or
 
 Here is a Google image search showing the hand position to why it go its name
 
-![Right Hand Rule image](../images/Chapter_05_IMG_001.png)
+![Right Hand Rule image](../Images/Chapter_05_IMG_001.png)
 
 ## The Tango Coordinate System
 

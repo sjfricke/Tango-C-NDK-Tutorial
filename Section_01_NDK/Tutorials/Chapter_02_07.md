@@ -2,7 +2,7 @@
 
 # Chapter 2.7 - Summary
 
-![NDK layout](../images/Chapter_02_IMG_001.png)
+![NDK layout](../Images/Chapter_02_IMG_001.png)
 
 Just a quick recap of what part the NDK does as the next section goes into some code sample/demo
 

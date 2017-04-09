@@ -7,13 +7,13 @@
 
 
 * Create a new class `TangoInitializationHelper` inside your Java folder
-	* Copy code from [sampleCode](../sampleCode/java/TangoInitializationHelper.java)	
+	* Copy code from [sampleCode](../Sample_Code/java/TangoInitializationHelper.java)	
 
 * Create a new class `GLSurfaceRenderer` inside your Java folder
-	* Copy code from [sampleCode](../sampleCode/java/GLSurfaceRenderer.java)
+	* Copy code from [sampleCode](../Sample_Code/java/GLSurfaceRenderer.java)
 
 * Create a new class `TangoJNINative` inside your Java folder
-	* Copy code from [sampleCode](../sampleCode/java/TangoJNINative.java)
+	* Copy code from [sampleCode](../Sample_Code/java/TangoJNINative.java)
 	
 
 * We can then get rid of the `static { System.loadLibrary("native-lib"); }` call in the MainActivity as we we call `loadTangoSharedLibrary()` from the `TangoJNINative` class which is implemented in `TangoInitializationHelper`

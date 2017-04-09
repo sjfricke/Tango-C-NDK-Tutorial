@@ -20,7 +20,7 @@ So if you are reading this you have decided to take the journey and develop for 
 
 ## The Android Event Cycle
 * A huge thing to understand is that the Tango is just an Android application which will follow the Android life cycle chart.
-![Android Life Cycle](../images/Chapter_01_IMG_001.png)
+![Android Life Cycle](../Images/Chapter_01_IMG_001.png)
 * The really big idea to take from this is that there are event driven functions that will be called throughout the applications and are usually where most of the boilerplate code will go to begin with.
 
 ## Gradle

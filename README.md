@@ -1,5 +1,5 @@
 # Tango-C-NDK-Tutorial
-Helping those who want to get involved in the realm of Augmented Reality using both Google Project Tango and its C/C++ API.
+Helping those who want to get involved in the realm of Augmented Reality using both [Google Project Tango](https://get.google.com/tango/) and its [C/C++ API](https://developers.google.com/tango/apis/c/).
 
 ## WORK IN PROGRESS
 Currently still not complete with first draft due to being consumed with my studies at the University. There are many gaps blank and hopfully maybe you even are willing to help contribute to this project!    
@@ -22,32 +22,17 @@ Currently still not complete with first draft due to being consumed with my stud
 
 # BIG-IMPORTANT-NOTE
 * Working with Tango for a while we find working with it comes down to knowing 3 major components:
-    1. Android NDK
-    2. Graphics (OpenGL ES)
-    3. Tango API
+    1. [Android NDK](./Section_01_NDK)
+    2. [Graphics (OpenGL ES)](./Section_02_Graphics)
+    3. [Tango API](./Section_03_Tango)
 * Since some people are coming into this knowing none and some just want to learn to use the Tango API, we divided the book into 3 Sections which consist of its interal chapters.
+    * A [Glossary](./Glossary.md) is also added to help with all the fun buzz words you will come across
 
 ## Table of Content
-* [Chapter 0 - **General Info About Tutorial Notes**](./tutorials/Chapter_00.md)
-* [Chapter 1 - **The 101 Basics**](./tutorials/Chapter_01.md)
+* [Section 1 - **Android NDK**](./Section_01_NDK)
+* [Section 2 - **Graphics**](./Section_02_Graphics)
     * Everything you need to know before you start your journey.
-* [Chapter 2 - **Android NDK**](./tutorials/Chapter_02.md)
+* [Section 3 - **Tango API**](./Section_03_Tango)
     * How to get around a Android NDK application.
-* [Chapter 3 - **Starting a New Project**](./tutorials/Chapter_03.md)
-    * How to start your Tango Project with detailed notes.
-* [Chapter 4 - **Graphics with Tango**](./tutorials/Chapter_04.md)
-    * A guide how to handle the graphics with OpenGL ES.
-* [Chapter 5 - **The Tango Device**](./tutorials/Chapter_05.md)
-    * General Tango device info.
-* [Chapter 6 - **The C/C++ API**](./tutorials/Chapter_06.md)
-    * How to make use of the API.
-* [Chapter 7 - **Adding a library**](./tutorials/Chapter_07.md)
-    * How to add libraries to your project.
-* [Chapter 8 - **Adding a GUI**](./tutorials/Chapter_08.md)
-    * How to add a button and other GUI elements.
-* [Chapter 9 - **Debugging**](./tutorials/Chapter_09.md)
-    * How to use adb and logcat to debug
-* [Chapter 10 - **Integrating OpenCV**](./tutorials/Chapter_10.md)
-    * Adding OpenCV to your application
 * [**Glossary - Terminology**](./Glossary.md)
     * A list of common acronym and other terms used.

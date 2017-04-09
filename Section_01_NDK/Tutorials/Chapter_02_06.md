@@ -2,7 +2,7 @@
 
 # Chapter 2.6 - The Makefiles
 
-![Java Main Activity](../images/Chapter_02_IMG_005.png)
+![Java Main Activity](../Images/Chapter_02_IMG_005.png)
 
 Now that we have our code, we need to make sure that everything gets built correctly so we can package the APK to the device. These two files will be used when `ndk-build` is ran
 

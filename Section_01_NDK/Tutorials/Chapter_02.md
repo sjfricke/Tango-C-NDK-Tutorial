@@ -1,34 +1,33 @@
 <== [Chapter 1](./Chapter_01.md) -- [Chapter 2.1](./Chapter_02_01.md) ==>
 
-# Chapter 2 - Android NDK
+# Chapter 2 - What is NDK
 
-This section is all about the NDK andthe parts of it it related to Tango. You will need to understand the NDK development realm before doing anything with the Tango.
-
-
-The long version of learning the NDK is telling you to watch theis great [series of videdo on NDK](https://www.youtube.com/playlist?list=PL0C9C46CAAB1CFB2B) which is about 90 minutes long.
+You first must understand the trade-offs you are giving when using NDK before you start heading head first into it.
 
 ## NDK
+* Stands for Native Development Kit
+    * As compared to SDK which is Software Development 
 * The first thing is to understand **why** you would use the Android NDK
     * If you are doing stuff that involves more need of real time data processing you will have a reason to use the NDK
         * Two common cases are signal processing and graphical related tasks
             * The Tango involves both!
         * Unity has a huge overhead and AR graphics need to be in real time to look half-way decent
-* The other big thing to note is that the whole app isn't in C++ and we are really just writing an extension for it in native code to allow that section to be easier to enhance.
+* Abstraction is beatiful and very important part of development, but there times where you need to "do things yourself"
+* Before starting your project, read on and decide personally if NDK is right for you!
+
+## Native C/C++
+* The **Native** part in NDK just refers to the fact that Android is a Unix OS with a Linux based kernal.
+    * The core of all Linux OS's is written in C and this means you can build an entire Android app in C if you please.
+* Java doesn't compile to machine code and runs off a Java Virtual Machine (JVM).
+* NDK lets you create code that your Android will run on that is compiled to machine code and running "natively" on the device.
+
+## UI Thread
+* While you **can** build an NDK app in just C or C++, most apps, including the one in this tutorial, use Java and Android SDK for all the UI.
+* During runtime your app will open a thread that runs a JVM.
+* Using Java Native Interface (JNI) we will send all UI events down to where all our native C/C++ code is written.
 
 ## Breaking down NDK
-
-We are going to break down the NDK build using this chart (photo cred: Aleksandar Gargenta) by section
-![NDK layout](../images/Chapter_02_IMG_001.png)
-
-## Sections
-* [Chapter 2.1 - Directory Layout](./Chapter_02_01.md)
-* [Chapter 2.2 - The Java Source](./Chapter_02_02.md)
-* [Chapter 2.3 - The Java Native](./Chapter_02_03.md)
-* [Chapter 2.4 - The JNI Header](./Chapter_02_04.md)
-* [Chapter 2.5 - The Native Code](./Chapter_02_05.md)
-* [Chapter 2.6 - The Makefiles](./Chapter_02_06.md)
-* [Chapter 2.7 - Summary](./Chapter_02_07.md)
-
-
+* We are going to break down the NDK build using this chart (photo cred: Aleksandar Gargenta) by section
+![NDK layout](../Images/Chapter_02_IMG_001.png)
     
 <== [Chapter 1](./Chapter_01.md) -- [Chapter 2.1](./Chapter_02_01.md) ==>

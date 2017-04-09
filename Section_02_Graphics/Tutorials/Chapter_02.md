@@ -18,7 +18,7 @@ The long version of learning the NDK is telling you to watch theis great [series
 ## Breaking down NDK
 
 We are going to break down the NDK build using this chart (photo cred: Aleksandar Gargenta) by section
-![NDK layout](../images/Chapter_02_IMG_001.png)
+![NDK layout](../Images/Chapter_02_IMG_001.png)
 
 ## Sections
 * [Chapter 2.1 - Directory Layout](./Chapter_02_01.md)
