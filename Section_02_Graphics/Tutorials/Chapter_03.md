@@ -1,16 +1,38 @@
-<== [Chapter 2](./Chapter_02.md) -- [Chapter 3.1](./Chapter_03_01.md) ==>
+<== [Chapter 4](./Chapter_04.md) -- [Chapter 4.2](./Chapter_04_02.md) ==>
 
-# Chapter 3 - Starting a New Project
+# Chapter 4.1 - Coordinate System
 
-Here we are going to walk through setting up a new project using Android Studio. This is broken into multiple sections. All code samples can be found in the [sampleCode folder](https://github.com/sjfricke/Tango-C-NDK-Tutorial/tree/master/sampleCode)
+Good way to follow the graphic lesson is talking about the coordinate systems
+--------
 
-## Sections
-* [Chapter 3.1 - Start a new project](./Chapter_03_01.md)
-* [Chapter 3.2 - Getting the Java code](./Chapter_03_02.md)
-* [Chapter 3.3 - Java code explained](./Chapter_03_03.md)
-* [Chapter 3.4](./Chapter_03_04.md)
-* [Chapter 3.5](./Chapter_03_05.md)
-* [Chapter 3.6](./Chapter_03_06.md)
-* [Chapter 3.7](./Chapter_03_07.md)
+So there is a good chance you are smarter than me and this doesn't relate to you, but the coordinate system explain in the [Google Tango Guide](https://developers.google.com/tango/overview/coordinate-systems) didn't inherently make sense to me on first read. We are gonna try to clear up confusion to anyone who also was confused
 
-<== [Chapter 2](./Chapter_02.md) -- [Chapter 3.1](./Chapter_03_01.md) ==>
+## Right hand vs Left hand rule
+* This is a very basic principle in matrix algebra, but needs to understood quick before moving on. The idea is if I have a coordinate system such that
+
+```
+   ------------> Y              ------------> Y
+   |                            |
+   |                            |      __ 
+   |                            |       /|
+   |                            |      /
+   |                            |     /  
+   V                            V    /
+                                        
+   X                            X
+```
+
+and I move towards `Y` from `X` does `Z` go **INTO** the screen away from you or **out** of the screen towards you
+
+* If it is **INTO** the screen this is the `Left-Hand rule`
+
+* If it is **OUT** of the screen this is the `Right-Hand rule`
+
+Here is a Google image search showing the hand position to why it go its name
+
+![Right Hand Rule](../Images/Right_Hand_Rule.png)
+
+## The Tango Coordinate System
+
+
+<== [Chapter 4](./Chapter_04.md) -- [Chapter 4.2](./Chapter_04_02.md) ==>

@@ -49,3 +49,6 @@
 * [Chapter x - Summary](./Tutorials/Chapter_0.md)
 * [Chapter x - **Starting a New Project**](./Tutorials/Chapter_0.md)
     * How to start your Tango Project with detailed notes.
+        
+        
+[Section 2 - Graphics](../Section_02_Graphics) ==>
