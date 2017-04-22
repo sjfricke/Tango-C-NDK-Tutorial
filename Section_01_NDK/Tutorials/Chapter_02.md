@@ -1,4 +1,4 @@
-<== [Chapter 1](./Chapter_01.md) -- [Chapter 2.1](./Chapter_02_01.md) ==>
+<== [Chapter 1](./Chapter_01.md) -- [Chapter 3](./Chapter_03.md) ==>
 
 # Chapter 2 - What is NDK
 
@@ -26,8 +26,15 @@ You first must understand the trade-offs you are giving when using NDK before yo
 * During runtime your app will open a thread that runs a JVM.
 * Using Java Native Interface (JNI) we will send all UI events down to where all our native C/C++ code is written.
 
+## Building the Project (CMake vs ndk-build)
+* There is more about this in the [makefile](./Chapter_08.md) chapter.
+* You can use either CMake or ndk-build for building your project together.
+* Build tools are programs that automate the creation of executable applications from source code.
+    * Building incorporates compiling,linking and packaging the code into a usable or executable form.
+    * In android the output of the build is the `.apk` file that loads on a device.
+
 ## Breaking down NDK
 * We are going to break down the NDK build using this chart (photo cred: Aleksandar Gargenta) by section
 ![NDK layout](../Images/Chapter_02_IMG_001.png)
     
-<== [Chapter 1](./Chapter_01.md) -- [Chapter 2.1](./Chapter_02_01.md) ==>
+<== [Chapter 1](./Chapter_01.md) -- [Chapter 3](./Chapter_03.md) ==>
