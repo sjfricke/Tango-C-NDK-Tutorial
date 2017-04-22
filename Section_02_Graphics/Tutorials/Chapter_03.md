@@ -1,6 +1,6 @@
-<== [Chapter 4](./Chapter_04.md) -- [Chapter 4.2](./Chapter_04_02.md) ==>
+<== [Chapter 2](./Chapter_02.md) -- [Chapter 4](./Chapter_04.md) ==>
 
-# Chapter 4.1 - Coordinate System
+# Chapter 3 - Coordinate System
 
 Good way to follow the graphic lesson is talking about the coordinate systems
 --------
@@ -32,7 +32,17 @@ Here is a Google image search showing the hand position to why it go its name
 
 ![Right Hand Rule](../Images/Right_Hand_Rule.png)
 
-## The Tango Coordinate System
+## Two Coordinate System
+* The big thing to understand is there are **multiple** coordinate systems to take in cosideration when developing for Tango
+    * The camera and sensors taking the reading have their own coordinate system.
+        * Also known as `Right Hand Local Level`
+    * The OpenGL ES rendered image projected on your screen has its own coordinate system as normal. This is the same if you ran the OpenGL ES on a different phone without Tango.
+        * Also known as `Right Hand Android`
 
+## Start of Service
+* The Tango will always be able to distinguish where gravity is pointing and represents that as the `Negative Z value for Right Hand Local Level`
+* The question becomes which direction `Positive Y value for Right Hand Local Level` points out.
+* When the app starts this is set as the way the Tango is facing out.
+    * This means a value of `Y == 5` is dependent how you start your app unless you program it to be able to calibrate. 
 
-<== [Chapter 4](./Chapter_04.md) -- [Chapter 4.2](./Chapter_04_02.md) ==>
+<== [Chapter 2](./Chapter_02.md) -- [Chapter 4](./Chapter_04.md) ==>

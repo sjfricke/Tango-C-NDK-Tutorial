@@ -1,4 +1,4 @@
-[Chapter 2](./Chapter_02.md) ==>
+<== [Section 1 - NDK](../README.md) -- [Chapter 2](./Chapter_02.md) ==>
 
 # Chapter 1 - Android 101
 
@@ -38,4 +38,4 @@ Before we can get all into Android NDK, we need to cover some basic generic Andr
     * etc
 * [More info](https://developer.android.com/guide/topics/manifest/manifest-intro.html)
 
-[Chapter 2](./Chapter_02.md) ==>
+<== [Section 1 - NDK](../README.md) -- [Chapter 2](./Chapter_02.md) ==>
