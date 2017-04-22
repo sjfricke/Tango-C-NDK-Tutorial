@@ -2,7 +2,7 @@
 
 # Chapter 4 - The Java Source
 
-![Java Main Activity](../Images/Chapter_02_IMG_002.png)
+![Java Main Activity](../Images/Main_Activity.png)
 
 As mentioned before we need to have a **main** Java activity that will act as the main function to start off our app. This is going to be our `DemoActivity.java` file. This will include the call to the activity with
 

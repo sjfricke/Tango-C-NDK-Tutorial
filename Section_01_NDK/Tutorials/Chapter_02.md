@@ -35,6 +35,6 @@ You first must understand the trade-offs you are giving when using NDK before yo
 
 ## Breaking down NDK
 * We are going to break down the NDK build using this chart (photo cred: Aleksandar Gargenta) by section
-![NDK layout](../Images/Chapter_02_IMG_001.png)
+![NDK layout](../Images/NDK_layout.png)
     
 <== [Chapter 1](./Chapter_01.md) -- [Chapter 3](./Chapter_03.md) ==>

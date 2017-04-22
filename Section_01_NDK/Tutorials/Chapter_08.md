@@ -9,7 +9,7 @@
 * Since Tango is a Android platform specific project, I feel justified to use ndk-build
 * **Honesty:** I don't know how to build NDK in CMake and anyone who does **please** add it!
 
-![Java Main Activity](../Images/Chapter_02_IMG_005.png)
+![Makefiles](../Images/Makefiles.png)
 
 Now that we have our code, we need to make sure that everything gets built correctly so we can package the APK to the device. These two files will be used when `ndk-build` is ran
 

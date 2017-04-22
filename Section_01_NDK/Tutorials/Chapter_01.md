@@ -20,7 +20,7 @@ Before we can get all into Android NDK, we need to cover some basic generic Andr
 
 ## The Android Event Cycle
 * A huge thing to understand is that your Tango app is like any Android application which will follow the Android life cycle chart.
-![Android Life Cycle](../Images/Chapter_01_IMG_001.png)
+![Android Life Cycle](../Images/Android_Life_Cycle.png)
 * The really big idea to take from this is that there are event driven functions that will be called throughout the applications and are usually where most of the boilerplate code will go to begin with.
 
 ## Gradle

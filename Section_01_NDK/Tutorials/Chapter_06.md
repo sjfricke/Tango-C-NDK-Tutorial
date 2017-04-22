@@ -2,7 +2,7 @@
 
 # Chapter 6  - The JNI Header
 
-![Java Main Activity](../Images/Chapter_02_IMG_003.png)
+![JNI Header](../Images/JNI_Header.png)
 
 We are now heading over to our `jni` directory. You have ~~two~~ three options for this section
 
