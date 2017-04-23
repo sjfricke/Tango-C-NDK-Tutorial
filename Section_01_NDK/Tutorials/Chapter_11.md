@@ -11,6 +11,18 @@ Here are the steps to take to add a GUI such as a button to your NDK application
     * **NOTE:** you need to have a function first in your main activity
 * Create the function in your main activity
     * example - `public void snapShot(View view) { }`
+    * **NOTE:** I have found from others that a better way of getting the click is using a `findViewById(R.id.snapshot).setOnClickListener(this);` call **after** `setContentView()`
+        * This way lets you have one function to switch case the buttons
+        * ```
+          @Override
+          public void onClick(View v) {
+             // Handle button clicks.
+            switch (v.getId()) {
+            ...
+            ...
+            }
+          }
+          ```
 * Now add a call to you JNI Native class
     *  ```
         public void snapShot(View view) {
