@@ -86,6 +86,6 @@ src
 * This is the *summary* of your whole project where you declare everything needed
     * If you need to make any setting changes, this is where you will do it
     
-![Project_Folder](../images/Project_Folder.png)
+![Project_Folder](../Images/Project_Folder.png)
 
 <== [Chapter 2](./Chapter_02.md) -- [Chapter 4](./Chapter_04.md) ==>

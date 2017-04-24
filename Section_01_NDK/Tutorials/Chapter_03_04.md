@@ -8,7 +8,7 @@
 
 * make a folder for the JNI files
 	* You can right click app and add a new JNI folder
-		* ![Adding JNI folder](../images/Project_Folder.png)
+		* ![Adding JNI folder](../Images/Project_Folder.png)
 	* you should have a file `<Project>/app/src/main/jni`
 	* it defaults with a `cpp` folder, you can keep it, but for the tutorials we will refer to the file as the `jni` folder and also assumes you renamed the `cpp` folder or removed it
 

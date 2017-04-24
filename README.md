@@ -30,9 +30,12 @@ Currently still not complete with first draft due to being consumed with my stud
 
 ## Table of Content
 * [Section 1 - **Android NDK**](./Section_01_NDK)
+    * Everything you need to know to get up and going with NDK.
 * [Section 2 - **Graphics**](./Section_02_Graphics)
     * Everything you need to know before you start your journey.
 * [Section 3 - **Tango API**](./Section_03_Tango)
     * How to get around a Android NDK application.
+* [Section 4 - **Starting a Project**](./Section_04_Project)
+    * Starting a Tango NDK project from scratch.
 * [**Glossary - Terminology**](./Glossary.md)
     * A list of common acronym and other terms used.
