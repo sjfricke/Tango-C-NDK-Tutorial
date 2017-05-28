@@ -32,9 +32,10 @@ You first must understand the trade-offs you are giving when using NDK before yo
 * Build tools are programs that automate the creation of executable applications from source code.
     * Building incorporates compiling,linking and packaging the code into a usable or executable form.
     * In android the output of the build is the `.apk` file that loads on a device.
+* **Note:** The advantage of CMake is it will make compiling for different systems possible, but Tango is currently only intended to ever be an Android technology so ndk-build is very valid and acceptable in this case to still use.
 
 ## Breaking down NDK
-* We are going to break down the NDK build using this chart (photo cred: Aleksandar Gargenta) by section
+* We are going to break down the NDK build using this chart (photo cred: [Aleksandar Gargenta](https://github.com/agargenta)) by section
 ![NDK layout](../Images/NDK_layout.png)
     
 <== [Chapter 1](./Chapter_01.md) -- [Chapter 3](./Chapter_03.md) ==>

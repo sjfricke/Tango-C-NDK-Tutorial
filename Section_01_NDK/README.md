@@ -10,7 +10,6 @@
 * How to layout a NDK project and all its different sections
 
 ## What This Section Is NOT
-* A way of learning everything about NDK
 * A way to learn about the Tango API
     * That is [Section 3](../Section_03_Tango)
     
@@ -45,10 +44,6 @@
 * [Chapter 10 - **Debugging**](./Tutorials/Chapter_10.md)
     * How to use adb and logcat to debug.	
 * [Chapter 11 - **Adding a GUI**](./Tutorials/Chapter_11.md)
-    * How to add a button and other GUI elements.
-* [Chapter x - Summary](./Tutorials/Chapter_0.md)
-* [Chapter x - **Starting a New Project**](./Tutorials/Chapter_0.md)
-    * How to start your Tango Project with detailed notes.
-        
+    * How to add a button and other GUI elements.        
         
 [Section 2 - Graphics](../Section_02_Graphics) ==>

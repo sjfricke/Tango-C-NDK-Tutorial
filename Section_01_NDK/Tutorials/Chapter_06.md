@@ -8,11 +8,11 @@ We are now heading over to our `jni` directory. You have ~~two~~ three options f
 
 1. Copy and paste an example and tweak it
 2. Have `javah` generate it all for you
-3. Write it by hand (just don't)
+3. Write it by hand ( just don't )
 
 ## What is the JNI
 * As already mentioned, the Java Native Interface is a way to *convert* your Java function calls to C++
-* The JNI file, for this tutorial we will call `jni_interface.cpp`, will need to make sure it imports teh JNI files with `#include <jni.h>`
+* The JNI file, for this tutorial we will call `jni_interface.cpp`, will need to make sure it imports the JNI files with `#include <jni.h>`
 * This file is not a class, but rather a way to be the bridge between the native and Java code. 
 * We will want to make a static instance of our main class from the native code.
     * For this example we will call it `app`

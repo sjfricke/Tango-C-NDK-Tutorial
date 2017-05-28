@@ -4,12 +4,12 @@
 
 ![Java Native](../Images/Java_Native.png)
 
-Now that we have some code to handle the Java source we need a way to send that source data down to the Native code layer. We will be declaring a series of a native Java function headers that we planned to get called in our Native code layer, also known as JNI (Java Native Interface). The best method is to create another file in your Java directory called `TangoJNINative.java`
+Now that we have some code to handle the Java source we need a way to send that source data down to the Native code layer. We will be declaring a series of a native Java function headers that we planned to get called in our Native code layer, also known as **JNI** (Java Native Interface). The best method is to create another file in your Java directory called `TangoJNINative.java`
 
 ## Loading in the native library
-* This project depends on tango_client_api, so we need to make sure we load the correct library first.
-    * This will be a static call
-* We make a system call with `System.loadLibrary("my_native_cpp_module");` to the module we have set up (we do this is later section)
+* We make a system call with `System.loadLibrary("my_native_app");` to the module we have set up (we do this is later section)
+* This **needs** to match the `LOCAL_MODULE` in Android.mk we will show later
+	* Just realize here that you are compiling and building the Native code and then dynamically loading it in the Activity with this `System.loadLibrary()` call
 
 ## Declaring a native call
 * Java has a native function prefix `native` which we are going to use

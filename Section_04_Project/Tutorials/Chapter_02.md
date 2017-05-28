@@ -168,5 +168,12 @@
         android:layout_gravity="top" />
 
     ```
+
+## The Renderer
+* **NOTE:** This will go in depth about the graphic rendering in the next two chapters
+* The renderer is in charge of calling the `onDrawFrame` call to OpenGL ES each frame.
+* It also captures the event on `onGlSurfaceChanged` which is mainly if you rotate the screen orientation and have to resize the window.
+* If you plan to bring in assets you will need to use the Android `AssetManager`.
+    * This is because the NDK compresses all the files together and you will not be able to get a file pointer otherwise.
     
 <== [Chapter 3.1](./Chapter_03_01.md) -- [Chapter 3.3](./Chapter_03_03.md) ==>

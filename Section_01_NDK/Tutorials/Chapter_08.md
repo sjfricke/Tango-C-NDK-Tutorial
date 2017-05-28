@@ -24,9 +24,9 @@ Now that we have our code, we need to make sure that everything gets built corre
 	* The *system* runtime is the default if there is no APP_STL definition.
     * You can only select a single C++ runtime that all your code will depend on.
     * It is not possible to mix shared libraries compiled against different C++ runtimes.
-	* **NOTE:**: Defining APP_STL in Android.mk has no effect!
+	* [A list of Android C++ Library Support](https://developer.android.com/ndk/guides/cpp-support.html)
 * `APP_PLATFORM := android-19`
-	* Tells the ndk-build the mininumum version of Android SDK API to build for
+	* Tells the ndk-build the mininumum version of Android SDK API to build for.
 
 ## Android.mk
 * This file is used to tell which libraries, flags, directories, etc. to use
