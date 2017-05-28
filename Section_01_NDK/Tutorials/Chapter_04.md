@@ -8,13 +8,7 @@ As mentioned before we need to have a **main** Java activity that will act as th
 
 `public class DemoActivity extends Activity { ...`
 
-Here our main activity is started. We will need to name this package as well 
-
-`package com.projecttango.NDK.demo.packageSample;`
-
-We will also for the purpose of working with the Tango want to include a file to help initalize everything for us by go `import com.projecttango.examples.cpp.util.TangoInitializationHelper;`
-
-This file can be found in the [sampleCode](../Sample_Code/java/TangoInitializationHelper.java)
+Here our main activity is started. We will need to give a name to this package as well like `package com.projecttango.my.NDK.project.packageSample;`
 
 ## Inside the Activity
 * The two things to worry about your Main Activity is its where you handle all your events like `onCreate`, `onDestory`,etc.
