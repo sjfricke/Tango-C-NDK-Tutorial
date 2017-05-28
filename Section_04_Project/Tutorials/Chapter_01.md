@@ -1,6 +1,4 @@
-<== [Chapter 3](./Chapter_03.md) -- [Chapter 3.2](./Chapter_03_02.md) ==>
-
-# Chapter 3.1 - Start a new project
+# Chapter 1 - Start a new project
 
 * Include C++ support
 ![Choose C++ Support](../Images/Chapter_03_IMG_001.png)
@@ -15,4 +13,3 @@
 
 * If it creates an `androidTest` and `test` folder you can ignore this, we are just using the `main` folder
 
-<== [Chapter 3](./Chapter_03.md) -- [Chapter 3.2](./Chapter_03_02.md) ==>

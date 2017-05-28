@@ -2,6 +2,8 @@
 
 # Section 4 - Starting a New Project
 
+# NOT READY YET!
+
 Here we are going to walk through setting up a new project using Android Studio. This is broken into multiple sections. All code samples can be found in the [sampleCode folder](./)
 
 # Table Of Content

@@ -40,22 +40,22 @@ TOP
 src
 └───main
 	├───assets
-	│	├─── <image files>
-	│	└─── <3D models>
+	│   ├─── <image files>
+	│   └─── <3D models>
 	├───java
 	│   └───com
 	│       └───projecttango
 	│           └───package
 	│               └───name
 	│                   ├─── <files.java>
-	│					└─── <files.java>
+	│                   └─── <files.java>
 	├───jni
 	│   ├─── <files.cpp>
 	│   └─── <files.cpp>
 	├───res
-	│	├─── <XAML files>
-	│	├─── <XAML files>
-	│	└─── <XAML files>
+	│   ├─── <XAML files>
+	│   ├─── <XAML files>
+	│   └─── <XAML files>
 	│
 	└─── AndroidManifest.xml
 ```
