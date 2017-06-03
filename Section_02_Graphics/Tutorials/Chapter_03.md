@@ -33,7 +33,7 @@ Here is a Google image search showing the hand position to why it go its name
 ![Right Hand Rule](../Images/Right_Hand_Rule.png)
 
 ## Two Coordinate System
-* The big thing to understand is there are **multiple** coordinate systems to take in cosideration when developing for Tango
+* The big thing to understand is there are **multiple** coordinate systems to take in consideration when developing for Tango
     * The camera and sensors taking the reading have their own coordinate system.
         * Also known as `Right Hand Local Level`
     * The OpenGL ES rendered image projected on your screen has its own coordinate system as normal. This is the same if you ran the OpenGL ES on a different phone without Tango.

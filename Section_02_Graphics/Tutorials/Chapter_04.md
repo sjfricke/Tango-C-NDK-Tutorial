@@ -1,9 +1,9 @@
-<== [Chapter 3](./Chapter_03.md) -- [Chapter 5](./Chapter_05.md) ==>
+<== [Chapter 3](./Chapter_03.md)
 
 # Chapter 4 - 3D Model Files
 
 ## Files are just protocols
-* If there is a cube with 8 vetices, 6 faces, etc, this can be represented in various ways.
+* If there is a cube with 8 vertices, 6 faces, etc, this can be represented in various ways.
 * Each file format is given a standard/protocol how to store the data for a 3D model.
 * It is up to the application to unpack it, parse it, and format it the way to allow for use in the application.
 
@@ -28,4 +28,4 @@ static const char* kNoCompressExt[] = {
 # HELP
 * If you know a better way to open and read an .obj file without having to change its extension, let us know!
 
-<== [Chapter 3](./Chapter_03.md) -- [Chapter 5](./Chapter_05.md) ==>
+<== [Chapter 3](./Chapter_03.md)

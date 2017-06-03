@@ -27,6 +27,8 @@
 * **DirectX**
     * Microsoft version of OpenGL which is found in gaming engines for its more friendly game development traits
         * This is why you buy a PC to game
+* **Metal**
+    * Apple version of OpenGL which only really is found on their hardware
 * **Vulkan**
     * The *young gunner on the block* who is **not** here to *replace* OpenGL, but provide developers a way of having more control to get the maximum performance out of their applications
     * **NOTE** that a 1080HD screen is 1080x1920 = 2 million pixels and if trying to run 90FPS that is 180 million pixels a second to calculate with only 11.1ms to get each frame out... Vulkan doesn't seem like a bad idea now talking about making AR more realistic.
@@ -35,14 +37,14 @@
 ## OpenGL ES and my Tango
 * So you will need to write some OpenGL ES for your Tango application if you plan on getting anything augmented to the world using the NDK.
     * Please note if you wanted to make a game for Tango we would suggest looking into the Unity API as it is made for abstracting all of this for you.
-* You should assume OpenGL ES 3.1 as the lowest version to support for any production device
-* If you want help there is a nice [tango_gl repo](https://github.com/sjfricke/tango_gl) we personally forked from the Google samples to make more capable of advance tasks
-    * It is not a full fledge OpenGL library, but it takes care of the whole matrix math of outputing your renderings to the screen and moving on camera movement
+* You should assume OpenGL ES 3.1 as the lowest version to support for any production device with Tango
+* If you want help there is a nice [tango_gl repo](https://github.com/sjfricke/tango_gl) we personally forked from the Google samples to make more capable of advanced tasks
+    * It is not a full fledge OpenGL library, but it takes care of the whole matrix math of outputting your renderings to the screen and moving on camera movement
 
 ## What is the fastest way to learn OpenGL ES
 * ... We were really hoping you weren't going to ask this, some of us may have personally have been fortunate to take a course while studying in college on graphical programming. The real question is not "how do I learn OpenGL ES" but rather "how do I learn graphical programming and the whole graphic pipeline"
 * This question can be taught in two ways
-    * The theoretical mathematic  way of why matrix and linear algebra works
+    * The theoretical mathematical way of why matrix and linear algebra works
     * How do I get the most pixels flung to the screen as fast as possible
 * My suggestion is take some time, like a good month of practicing and reading, on OpenGL before you even attempt to dive into the Tango code
 * Here are some really good sources

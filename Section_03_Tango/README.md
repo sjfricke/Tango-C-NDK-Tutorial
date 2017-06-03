@@ -5,9 +5,9 @@
 * The main goal of this is to get you up to speed and fill gaps not in the [official documentation](https://developers.google.com/tango/apis/c/)
 
 ## What This Section Is
-* An explaination of the API in general
+* An explanation of the API in general
 * Overview of the 3 current API *groups*
-* How to intergrate into the project
+* How to integrate into the project
 * What everything does from a higher level
 
 ## What This Section Is NOT

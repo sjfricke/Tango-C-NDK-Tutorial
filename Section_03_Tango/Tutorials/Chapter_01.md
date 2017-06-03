@@ -5,12 +5,12 @@
 ## Different Tango devices
 * As of now there are only **2** Tango powered devices
     * The Tango Dev Kit ![Tango Dev Kit image](../Images/Development_Kit.png)
-    * Lenovo Phab 2 Pro ![Phab 2 Pro image](../Images/Lenovo_Phab_2_pro.png)
-    * **COMMING SOON** ASUS ZenFone AR ![ZenFone AR image](../Images/ASUS_Zenfone_AR.png)
+    * Lenovo Phab 2 Pro ![Phab 2 Pro image](../Images/Lenovo_Phab_2_Pro.png)
+    * **COMING SOON** ASUS ZenFone AR ![ZenFone AR image](../Images/ASUS_Zenfone_AR.png)
     
 ### Dev Kit notes
 * The only thing to watch out for is if you have the Dev Kit is that the device being a few years older suffers from a few drawbacks
-    * The Tegra chip is **way** less powerful then the Snapdragon 652 the Phab 2 Pro is running
+    * The old Tegra chip is **way** less powerful than the Snapdragon 652 the Phab 2 Pro is running
       * The Snapdragon 652 was built on the Adreno 510 GPU
       * The ASUS ZenFone AR is coming with a Snapdragon 821 with the Adreno 530 GPU
     * For production uses, the Phab 2 Pro should be your "Worst Case Phone" for a user to have
@@ -31,6 +31,6 @@
 * **[Support Library API](https://developers.google.com/tango/apis/c/support/reference/)**
     * Another set of API calls to let you get more helpful information like "edge detection" or "depth interface support"
 * **[3D Reconstruction Library API](https://developers.google.com/tango/apis/c/reconstruction/reference/)**
-    * This API has a set of calls to help you scan and create 3D models from the data infront of the camear
+    * This API has a set of calls to help you scan and create 3D models from the data in front of the camera
 
 <== [Section 3 - Tango](../README.md) -- [Chapter 2](./Chapter_02.md) ==>
