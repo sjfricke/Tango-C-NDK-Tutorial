@@ -8,14 +8,14 @@ Before we can get all into Android NDK, we need to cover some basic generic Andr
 
 ## Android SDK
 * Regardless of using NDK or not, you will still need the Android SDK.
-* Android has [various versions](https://en.wikipedia.org/wiki/Android_version_history) which are labed by an **API** value
+* Android has [various versions](https://en.wikipedia.org/wiki/Android_version_history) which are labeled by an **API** value
 * Android API 24 == Android SDK 24
-    * Each API has it own seperate Android SDK for it
+    * Each API has it own separate Android SDK for it
     * Android Studio does a good job letting you download all the ones you will need
 * Always check what API or Version your device is running as you get everything setup
 
 ## Sandboxing the app
-* All Android apps run in a "sandbox" enviroment
+* All Android apps run in a "sandbox" environment
 * This really just means that your app will not be capable of messing with the other part of the Android OS while it is running.
 
 ## The Android Event Cycle

@@ -18,7 +18,7 @@
 #define LOGE(...) __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__)
 ```
 
-* This now lets you easily create log write with custome tags and different status
+* This now lets you easily create log write with custom tags and different status
 * Example:
 	* `LOGI("Position: %f, %f, %f", pos->x, pos->y, pos->z);` will print `I My_NDK_APP: Position: 0.169661, 0.135381, 0.455411`
 	* `LOGE("Invalid Value: %s", ErrorString);` will print `E My_NDK_APP: Invalid value: Overflow Value`

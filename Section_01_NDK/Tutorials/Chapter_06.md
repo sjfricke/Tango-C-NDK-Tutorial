@@ -63,7 +63,7 @@ jint JNI_OnLoad(JavaVM* vm, void*) {}
 * We now give a name to the merged call
     * `Java_com_tango_demo_cpp_project_TangoJNINative_onGlSurfaceChanged`
     * We now have to pass in the parameters `(JNIEnv*, jobject, jint width, jint height)`
-      * `JNIEvn*` reference to JNI environment, which lets you access all the JNI fucntions.
+      * `JNIEvn*` reference to JNI environment, which lets you access all the JNI functions.
       * `jobject` reference to "this" Java object.
         * `jclass` can be used if referencing a class public function
       * `jint width, jint height` these are the arguments passed in from the Java call.

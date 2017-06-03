@@ -14,8 +14,8 @@
     * That is [Section 3](../Section_03_Tango)
     
 ### Android Studio
-* The perfered way as shown in these tutorials is to use Android Studio
-* However, we will still reference everything agnostic to your personal preference of work enviorment.
+* The preferred way as shown in these tutorials is to use Android Studio
+* However, we will still reference everything agnostic to your personal preference of work environment.
     * You are totally capable of using any other IDE
         * Maybe you just want to do it all in emacs, be my guest
     
@@ -30,7 +30,7 @@
 * [Chapter 3 - **Directory Layout**](./Tutorials/Chapter_03.md)
     * The overall layout of a project.
 * [Chapter 4 - **The Java Source**](./Tutorials/Chapter_04.md)
-    * The seperate UI thread in Java.
+    * The separate UI thread in Java.
 * [Chapter 5 - **The Java Native**](./Tutorials/Chapter_05.md)
     * Telling Java to use native code.
 * [Chapter 6 - **The JNI Header**](./Tutorials/Chapter_06.md)

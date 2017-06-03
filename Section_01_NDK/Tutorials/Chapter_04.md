@@ -37,6 +37,6 @@ Do this will let you manage the what to do when the app starts and is paused and
 	*  We will also be able to bind the renderer if we plan to use OpenGL ES in our application
 
 ### package-info.java
-* You may find there is a `package-info.java` file. This file is purly for documentation and is used when generating Javadocs.
+* You may find there is a `package-info.java` file. This file is purely for documentation and is used when generating Javadocs.
 
 <== [Chapter 3](./Chapter_03.md) -- [Chapter 5](./Chapter_05.md) ==>

@@ -11,12 +11,12 @@ You first must understand the trade-offs you are giving when using NDK before yo
     * If you are doing stuff that involves more need of real time data processing you will have a reason to use the NDK
         * Two common cases are signal processing and graphical related tasks
             * The Tango involves both!
-        * Unity has a huge overhead and AR graphics need to be in real time to look half-way decent
-* Abstraction is beatiful and very important part of development, but there times where you need to "do things yourself"
+        * Unity has a huge overhead and AR graphics need to be in real time to look halfway decent
+* Abstraction is beautiful and very important part of development, but there times where you need to "do things yourself"
 * Before starting your project, read on and decide personally if NDK is right for you!
 
 ## Native C/C++
-* The **Native** part in NDK just refers to the fact that Android is a Unix OS with a Linux based kernal.
+* The **Native** part in NDK just refers to the fact that Android is a Unix OS with a Linux based kernel.
     * The core of all Linux OS's is written in C and this means you can build an entire Android app in C if you please.
 * Java doesn't compile to machine code and runs off a Java Virtual Machine (JVM).
 * NDK lets you create code that your Android will run on that is compiled to machine code and running "natively" on the device.
@@ -35,7 +35,7 @@ You first must understand the trade-offs you are giving when using NDK before yo
 * **Note:** The advantage of CMake is it will make compiling for different systems possible, but Tango is currently only intended to ever be an Android technology so ndk-build is very valid and acceptable in this case to still use.
 
 ## Breaking down NDK
-* We are going to break down the NDK build using this chart (photo cred: [Aleksandar Gargenta](https://github.com/agargenta)) by section
+* We are going to break down the NDK build using this chart (photo credit: [Aleksandar Gargenta](https://github.com/agargenta)) by section
 ![NDK layout](../Images/NDK_layout.png)
     
 <== [Chapter 1](./Chapter_01.md) -- [Chapter 3](./Chapter_03.md) ==>

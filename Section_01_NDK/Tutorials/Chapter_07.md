@@ -32,6 +32,6 @@ void DemoApp::OnSurfaceChanged(int width, int height) {
   UpdateViewportAndProjectionMatrix();
 }
 ```
-We have now sucessfully created a native function call when the surface changes from a screen orientation rotation. Now to make sure it all compiles ( Yay, your favorite part ).
+We have now successfully created a native function call when the surface changes from a screen orientation rotation. Now to make sure it all compiles ( Yay, your favorite part ).
 
 <== [Chapter 6](./Chapter_06.md) -- [Chapter 8](./Chapter_08.md) ==>

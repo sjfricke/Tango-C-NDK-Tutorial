@@ -26,18 +26,18 @@ Now that we have our code, we need to make sure that everything gets built corre
     * It is not possible to mix shared libraries compiled against different C++ runtimes.
 	* [A list of Android C++ Library Support](https://developer.android.com/ndk/guides/cpp-support.html)
 * `APP_PLATFORM := android-19`
-	* Tells the ndk-build the mininumum version of Android SDK API to build for.
+	* Tells the ndk-build the minimum version of Android SDK API to build for.
 
 ## Android.mk
 * This file is used to tell which libraries, flags, directories, etc. to use
 * The main part to take away from it now is that file is what controls the compiling of your native code
 * **Really good** in depth source of details on Anroid.mk files can be [found here](http://android.mk/)
-* **ALSO** here is the offical guide sheet [from Google](https://developer.android.com/ndk/guides/android_mk.html)
+* **ALSO** here is the official guide sheet [from Google](https://developer.android.com/ndk/guides/android_mk.html)
 
 #### In-depth
 * This is where you list all the files you want to compile
 * If you add libraries, like tango_gl, need to include its source and headers
-* Lets take an example and break it down
+* Let's take an example and break it down
 
 ```
 LOCAL_PATH := $(call my-dir)
@@ -73,9 +73,9 @@ $(call import-module,tango_client_api)
 $(call import-module,tango_support_api)
 ```
 
-* First not that the `\` is used to continue the line and make the file more readable then having one super long line.
-* The `$(call _______)` is a way to call special instructions followed by a paramter if valid
-* So first lets start with with `LOCAL_PATH := $(call my-dir)` This sets the variable `LOCAL_PATH` to the directory where the `Android.mk` file is held.
+* First not that the `\` is used to continue the line and make the file more readable than having one super long line.
+* The `$(call _______)` is a way to call special instructions followed by a parameter if valid
+* So first let's start with with `LOCAL_PATH := $(call my-dir)` This sets the variable `LOCAL_PATH` to the directory where the `Android.mk` file is held.
 * `PROJECT_ROOT_FROM_JNI := ../../../../..` is just a way to go up to the top directory five folders up and set it to * `PROJECT_ROOT_FROM_JNI` Then we combine the two variables and get the root of the project with `PROJECT_ROOT := $(LOCAL_PATH)/$(PROJECT_ROOT_FROM_JNI)`
 * The `include $(CLEAR_VARS)` variable is provided by the build system and points to a special GNU Makefile that will clear many LOCAL_XXX variables for you with the exception of LOCAL_PATH.
 * The `LOCAL_MODULE` variable must be defined to identify each module you describe in your `Android.mk`. The name must be *unique* and not contain any spaces.

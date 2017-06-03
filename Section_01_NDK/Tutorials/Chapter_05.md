@@ -16,7 +16,7 @@ Now that we have some code to handle the Java source we need a way to send that 
 * Let's look at an example first
     * `public static native void onGlSurfaceChanged(int width, int height);`
 * In this make a native function declaration for the function `onGLSurfaceChanged` which returns void and takes two ints
-* ...that's really it, its not to hard once you realize you just need make normal Java based function calls.
+* ...that's really it, it's not too hard once you realize you just need make normal Java based function calls.
 
 ## Calling the native functions
 * Keeping with our example we will want to call this native function inside our renderer `onGLSurfaceChanged` event call.
