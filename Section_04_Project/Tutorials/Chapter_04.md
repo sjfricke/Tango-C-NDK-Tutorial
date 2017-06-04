@@ -1,28 +1,19 @@
-<== [Chapter 3.3](./Chapter_03_03.md) -- [Chapter 3.5](./Chapter_03_05.md) ==>
+<== [Chapter 3](./Chapter_03.md) -- [Chapter 5](./Chapter_05.md) ==>
 
-# Chapter 3.4
+# Chapter 4 - JNI Native Class
+We need to create a Java class with the JNI to allow our Java functions to get sent down to the Native functions. [Sample Code](./)
 
-* Make sure the `local.properites` file in root folder of project points to the correct location of your SDK and NDK libraries on your machine
-	* Android Studio does a good job setting this file up, but has been root of compile errors in past
-	* This is why you use a .gitignore file :)
+* Just as we did for`TangoInitializationHelper` we need to create another Java class and we will call it `TangoJniNative` 
+    ![Tango JNI Native Class](../Images/TangoJniNative_class.png)
+* The first thing we need to do is call `TangoInitializationHelper.loadTangoSharedLibrary()` and make sure we loaded the library correctly otherwise no point to contine.
+* We know need to load the Native C/C++ code into our application by loading it using `System.loadLibrary("tango_ndk_tutorial");`
+    * As of now in the tutorial we have not yet wrote this code, but when we do, this is how we call it
+    * Take notice that these two loading of native code takes place right away
+    * **IMPORTANT:** the string `tango_ndk_tutorial` in this case **must** match the `LOCAL_MODULE` library without the `lib` prefix
+        * This is more explain in detail in [Chapter 9](./Chapter_09.md)
+* Each function we plan to call down to the native layer we need to make a `native` java function declaration
+    * Example: `public static native void onCreate(Activity callerActivity);`
+        * In this example we will pass the instance of the Activity object to our native code when the Activity calls `onCreate`
+* Side note, I moved the `public native String stringFromJNI();` auto generated from the boilerplate `MainActivity.java` to this file.
 
-* make a folder for the JNI files
-	* You can right click app and add a new JNI folder
-		* ![Adding JNI folder](../Images/Project_Folder.png)
-	* you should have a file `<Project>/app/src/main/jni`
-	* it defaults with a `cpp` folder, you can keep it, but for the tutorials we will refer to the file as the `jni` folder and also assumes you renamed the `cpp` folder or removed it
-
-* Open `app/build.gradle`
-* Get rid of all cmake calls and replace with ndk call
-	* You can remove the `app/CMakelist.txt` file as well
-	* Add `ndk { abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86' } ` to have it build for all three ISA types
-	* If you are not planning on running unit test you can remove the JUint calls as well
-	* add ```externalNativeBuild { ndkBuild { path 'src/main/jni/Android.mk' } } ```	
-	* See example at [sampleCode]() for an example of a build.gradle for the project
-
-* Create your two make files
-	* Create `app/src/main/jni/Android.mk` and `app/src/main/jni/Application.mk`
-	* **Note:** the files won't appear in Android studio if the folder is completly empty so you may need to use other file system methods to create the file
-
-
-<== [Chapter 3.3](./Chapter_03_03.md) -- [Chapter 3.5](./Chapter_03_05.md) ==>
+<== [Chapter 3](./Chapter_03.md) -- [Chapter 5](./Chapter_05.md) ==>
