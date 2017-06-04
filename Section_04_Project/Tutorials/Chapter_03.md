@@ -1,13 +1,16 @@
-<== [Chapter 3.2](./Chapter_03_02.md) -- [Chapter 3.4](./Chapter_03_04.md) ==>
+<== [Chapter 2](./Chapter_02.md) -- [Chapter 4](./Chapter_04.md) ==>
 
-# Chapter 3.3 - Java code explained
+# Chapter 3 - Tango Initialization Helper
 
-* There are three things you will want to add right away to your activity
-1. An instance of your renderer class (explained in depth next section)
-    * `private AugmentedRealityRenderer mRenderer;`
-2. An instance of a GLSurfaceView for OpenGL ES to render to
-    * `private GLSurfaceView mGLView;`
-3. Create a screen size for normalizing the touch input for orbiting the render camera.
-    * `private Point mScreenSize = new Point();`
+So one of the big things we need to do is make sure we do is correctly load the right version of the Tango API Library. Luckily Google has already designed a nice helper class which I see no reason really changing, but also no reason not to modify it if needed. [Sample Code](./)
 
-<== [Chapter 3.2](./Chapter_03_02.md) -- [Chapter 3.4](./Chapter_03_04.md) ==>
+* **NOTE: ** remeber that all new code is going in the `/main/` folder, not the `/test/` or `/androidTest/`
+* Go to the Project directory on the side and right click the java folder where you `MainActivity` lives and add a new class called `TangoInitializationHelper`
+    * ![TangoInitializationHelper Class](../Images/TangoInitializationHelper_Class.png)
+* For this file I would just copy and paste [the code sample](./)
+    * **NOTE: ** make sure to change the name of the package at the top of the file with your package name
+
+## What is this file tl;dr
+The idea behind this file is it just looks for the tango by package name and then figures out path to it by type of architecture.
+
+<== [Chapter 2](./Chapter_02.md) -- [Chapter 4](./Chapter_04.md) ==>
