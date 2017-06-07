@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     // Tango Service connection.
     ServiceConnection mTangoServiceConnection = new ServiceConnection() {
         public void onServiceConnected(ComponentName name, IBinder service) {
-            // Synchronization around HelloMotionTrackingActivity object is to avoid
+            // Synchronization around MainActivity object is to avoid
             // Tango disconnect in the middle of the connecting operation.
             TangoJniNative.onTangoServiceConnected(service);
         }
