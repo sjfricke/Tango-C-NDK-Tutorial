@@ -10,13 +10,15 @@
 
 #include <cstdlib>
 
-// used to get logcat outputs which can be regex filtered by the LOG_TAG
+// used to get logcat outputs which can be regex filtered by the LOG_TAG we give
+// So in Logcat you can filter this example by putting Tutorial_TAG
 #define LOG_TAG "Tutorial_TAG"
 #define LOGI(...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
 #define LOGE(...) __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__)
 
 namespace tango_tutorial {
-// TangoHandler provides functionality to communicate with the Tango Service.
+
+    // TangoHandler provides functionality to communicate with the Tango Service.
     class Tango_NDK_Tutorial {
     public:
         Tango_NDK_Tutorial() : tango_config_(nullptr) {}

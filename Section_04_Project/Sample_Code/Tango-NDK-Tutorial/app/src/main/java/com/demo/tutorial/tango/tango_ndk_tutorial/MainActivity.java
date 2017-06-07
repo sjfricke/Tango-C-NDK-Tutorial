@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
     // Tango Service connection.
     ServiceConnection mTangoServiceConnection = new ServiceConnection() {
         public void onServiceConnected(ComponentName name, IBinder service) {
+            // Synchronization around HelloMotionTrackingActivity object is to avoid
+            // Tango disconnect in the middle of the connecting operation.
             TangoJniNative.onTangoServiceConnected(service);
         }
 
@@ -32,8 +34,11 @@ public class MainActivity extends AppCompatActivity {
         TangoJniNative.onCreate(this);
 
         // Example of a call to a native method
-        TextView tv = (TextView) findViewById(R.id.sample_text);
-        tv.setText( TangoJniNative.stringFromJNI() );
+        // Notice we send the value 5 to the stringFromJNI function
+        int someValue = 5;
+
+        TextView tv = (TextView) findViewById(R.id.native_callback_text);
+        tv.setText( "Value from NDK: " + TangoJniNative.valueFromJNI(someValue) );
     }
 
     @Override

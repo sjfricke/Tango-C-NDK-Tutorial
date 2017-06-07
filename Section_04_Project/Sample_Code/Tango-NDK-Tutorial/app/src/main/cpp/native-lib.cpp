@@ -1,5 +1,4 @@
 #include <jni.h>
-#include <string>
 
 #include "Tango_NDK_Tutorial.h"
 
@@ -9,9 +8,16 @@ static tango_tutorial::Tango_NDK_Tutorial app;
 extern "C" {
 #endif
 
+/* Format:
+ JNIEXPORT < Return_Type > JNICALL
+ < Package_Name + Java_Class_Name + Function_Name > (
+    JNIEnv* env, jobject obj, < Parameter_of_Native_Function > , ...
+ )
+*/
+
 JNIEXPORT void JNICALL
 Java_com_demo_tutorial_tango_tango_1ndk_1tutorial_TangoJniNative_onCreate(
-        JNIEnv* env, jobject /*obj*/, jobject caller_activity) {
+        JNIEnv* env, jobject, jobject caller_activity) {
     app.OnCreate(env, caller_activity);
 }
 
@@ -27,12 +33,12 @@ Java_com_demo_tutorial_tango_tango_1ndk_1tutorial_TangoJniNative_onPause(
     app.OnPause();
 }
 
-JNIEXPORT jstring JNICALL
-Java_com_demo_tutorial_tango_tango_1ndk_1tutorial_TangoJniNative_stringFromJNI(
-        JNIEnv *env,
-        jobject /* this */) {
-    std::string hello = "Hello from C++";
-    return env->NewStringUTF(hello.c_str());
+JNIEXPORT jint JNICALL
+Java_com_demo_tutorial_tango_tango_1ndk_1tutorial_TangoJniNative_valueFromJNI(
+        JNIEnv *env, jobject,  jint valueFromJava) {
+
+    // We take in a jint and pass back a jint
+    return valueFromJava + 1;
 }
 
 #ifdef __cplusplus

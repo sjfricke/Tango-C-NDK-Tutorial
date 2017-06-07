@@ -1,7 +1,11 @@
 #include "Tango_NDK_Tutorial.h"
 
 namespace {
+
+    // We can set a minimum version of tango for our application
     constexpr int kTangoCoreMinimumVersion = 9377;
+
+    // prints to logcat the current cloud point data
     void onPoseAvailable(void*, const TangoPoseData* pose) {
         LOGI("Position: %f, %f, %f. Orientation: %f, %f, %f, %f",
              pose->translation[0], pose->translation[1], pose->translation[2],

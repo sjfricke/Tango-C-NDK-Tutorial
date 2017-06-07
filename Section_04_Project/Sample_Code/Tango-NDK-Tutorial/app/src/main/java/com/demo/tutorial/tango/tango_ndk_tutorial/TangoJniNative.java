@@ -18,6 +18,8 @@ public class TangoJniNative {
                 TangoInitializationHelper.ARCH_ERROR) {
             Log.e("TangoJNINative", "ERROR! Unable to load libtango_client_api.so!");
         }
+
+        // This must match the LOAD_MODULE value in our Android.mk
         System.loadLibrary("tango_ndk_tutorial");
     }
 
@@ -45,5 +47,5 @@ public class TangoJniNative {
      * A native method that is implemented by the 'native-lib' native library,
      * which is packaged with this application.
      */
-    public static native String stringFromJNI();
+    public static native int valueFromJNI(int myNumber);
 }
