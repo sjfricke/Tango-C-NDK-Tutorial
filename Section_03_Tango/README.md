@@ -12,25 +12,29 @@
 
 ## What This Section Is NOT
 * The API Docs already online
+* A guide how to setup Tango
+	* That is for [Section 4](../Section_04_Project)
 * A reference for every property and function header
 * A set of examples for each call (Note: this would be a cool feature to add to doc in future!)
 
 # Table Of Content
-* [Chapter 1 - **Tango Device 101**](./Tutorials/Chapter_01.md)
+* [Chapter 1 - **Techincal Stuff**](./Tutorials/Chapter_01.md)
+	* Some Coding related techincal stuff
+* [Chapter 2 - **Tango Device 101**](./Tutorials/Chapter_02.md)
     * Quick overview about the Tango Device
-* [Chapter 2 - **Client API**](./Tutorials/Chapter_02.md)
+* [Chapter 3 - **Client API**](./Tutorials/Chapter_03.md)
     * Overview of main API
-* [Chapter 3 - **Support Library API**](./Tutorials/Chapter_03.md)
+* [Chapter 4 - **Support Library API**](./Tutorials/Chapter_04.md)
     * Overview what the support API can offer
-* [Chapter 4 - **3D Reconstruction API**](./Tutorials/Chapter_04.md)
+* [Chapter 5 - **3D Reconstruction API**](./Tutorials/Chapter_05.md)
     * Overview of using the 3D Reconstruction API
-* [Chapter 5 - **Position and Orientation**](./Tutorials/Chapter_05.md)
+* [Chapter 6 - **Position and Orientation**](./Tutorials/Chapter_06.md)
     * Gap filling information about using the API unit for Position and Orientation
-* [Chapter 6 - **Motion Tracking**](./Tutorials/Chapter_06.md)
+* [Chapter 7 - **Motion Tracking**](./Tutorials/Chapter_07.md)
     * Gap filling information about Tango Motion Tracking
-* [Chapter 7 - **Area Learning**](./Tutorials/Chapter_07.md)
+* [Chapter 8 - **Area Learning**](./Tutorials/Chapter_08.md)
     * Gap filling information about Tango Area Learning
-* [Chapter 8 - **Depth Perception**](./Tutorials/Chapter_08.md)
+* [Chapter 9 - **Depth Perception**](./Tutorials/Chapter_09.md)
     * Gap filling information about Tango Depth Perception
     
 <== [Section 2 - Graphics](../Section_02_Graphics) -- [Section 4 - Project](../Section_04_Project) ==>
