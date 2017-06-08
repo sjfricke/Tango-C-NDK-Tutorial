@@ -49,6 +49,9 @@ Java_com_demo_tutorial_tango_tango_1ndk_1tutorial_TangoJniNative_onCreate(
 		* The JNIEnv is used for thread-local storage. For this reason, you cannot share a JNIEnv between threads.
 	* **jobject** - This is a reference to an object of type `MainActivity`, almost like a `this` of the Java Activity class instance
 * We also call the `app` class we declared as a type of our future C++ class and run its internal `OnCreate` method we will make soon.
+	* Notice we try to help distinguish the Java and C++ functions by making the Java calls lowerCamelCase and the C++ UpperCamelCase as our naming convention
+		* Java -> `onCreate`
+		* C++  -> `OnCreate`
 * For the `Java_com_demo_tutorial_tango_tango_1ndk_1tutorial_TangoJniNative_valueFromJNI` function we add a third parameter which is the Java int argument we sent the value `5`. Here we take that value, add 1, and return it as a `jint` type
 
 <== [Chapter 5](./Chapter_05.md) -- [Chapter 7](./Chapter_07.md) ==>

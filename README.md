@@ -4,7 +4,7 @@ Helping those who want to get involved in the realm of Augmented Reality using b
 ------
 
 ## Who is this for?
-* Right now this is for the person who wants to get into Project Tango via the C/C++ API and found there was **NO** documentation anywhere else other then the offical documentation (seriously, this repo was started out of frustration). Our goal is to save you at least an hour of your life where we wasted five of mine trying to find these simple answers.
+* Right now this is for the person who wants to get into Project Tango via the C/C++ API and found there was **NO** documentation anywhere else other then the offical documentation (seriously, this repo was started out of frustration). The goal is to save you at least an hour of your life where we wasted five hours trying to find these simple answers.
 
 ## Project Tango
 * Project Tango is your best options to use true agumented reality technology with a platform that many people have (Android). The support for Tango on smartphones is slowly rolling out and a great way to make AR applications that many people can use.

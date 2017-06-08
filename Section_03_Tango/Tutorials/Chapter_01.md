@@ -1,7 +1,7 @@
 <== [Section 3 - Tango](../README.md) -- [Chapter 2](./Chapter_02.md) ==>
 
 # Chapter 1 - Techincal Stuff
-There a few "Code Technical" methods the Tango API uses and this chapter is only for those who are new to these ideas
+There a few "Code Technical" methods the Tango API uses and this chapter is only for those who are new to these ideas. These are things that are not specific to Tango, but rather to programming and C++ as a whole and should be understood before banging your head not understanding how things work. For those who have been around the block a few times and are good on this should feel free to jump to next chapter!
 
 ## Callbacks
 The API involves a lot of "Callback functions". Continue for those not familiar with callbacks/interrupts/asynch programming
@@ -67,5 +67,20 @@ Tango has a struct called [TangoEvent](https://developers.google.com/tango/apis/
 * The idea behind events are to hold data about functions that we can look at and examine
     * This is great information for debugging
 * More info on [Overview of Events](https://developers.google.com/tango/overview/events)
+
+## Error Type
+So you will see a lot of function calls using the `TangoErrorType` value when returned from functions.
+
+* The idea behind error types is to let you know if some internal settings have worked or not when calling API functions. This is because something might have gone wrong, but the Tango API is going to let us know and have us handle the error whether we want to close the app all together or maybe try again.
+* If you look at the [Tango Error Type](https://developers.google.com/tango/apis/c/reference/group/enums#tangoerrortype) reference you will see that Tango returns `TANGO_SUCCESS` when all is well
+```
+TangoErrorType err = TangoSupport_GetTangoVersion(env, caller_activity, &version);
+
+if (err != TANGO_SUCCESS) {
+    // Well this isn't a good sign...
+}
+```
+* In this example we check and make sure our `TangoSupport_GetTangoVersion` function was successful before we move on any further into our code
+* A lot of time people don't like all this validation clutter and you will see "Wrappers" where someone will add some prefix or append the name of every function and do this error checking in a function by itself. For this tutorial since we are not dealing with too much code we are going to just do the validation checking right after.
 
 <== [Section 3 - Tango](../README.md) -- [Chapter 2](./Chapter_02.md) ==>
