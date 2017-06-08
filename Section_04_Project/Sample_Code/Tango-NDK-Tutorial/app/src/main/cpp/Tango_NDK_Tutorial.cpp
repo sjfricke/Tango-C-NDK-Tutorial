@@ -22,6 +22,9 @@ namespace tango_tutorial {
         int version = 0;
         TangoErrorType err =
                 TangoSupport_GetTangoVersion(env, caller_activity, &version);
+
+        LOGI("Our Tango Core Version: %d", version );
+
         if (err != TANGO_SUCCESS || version < kTangoCoreMinimumVersion) {
             LOGE("Tango_NDK_Tutorial::CheckVersion, Tango Core version is out of date.");
             std::exit(EXIT_SUCCESS);
