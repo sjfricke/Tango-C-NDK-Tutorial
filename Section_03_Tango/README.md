@@ -30,11 +30,13 @@
     * Overview of using the 3D Reconstruction API
 * [Chapter 6 - **Position and Orientation**](./Tutorials/Chapter_06.md)
     * Gap filling information about using the API unit for Position and Orientation
-* [Chapter 7 - **Motion Tracking**](./Tutorials/Chapter_07.md)
+* [Chapter 7 - **Frame of Reference**](./Tutorials/Chapter_07.md)
+    * Try to explain how the Frame of Reference works in Tango
+* [Chapter 8 - **Motion Tracking**](./Tutorials/Chapter_08.md)
     * Gap filling information about Tango Motion Tracking
-* [Chapter 8 - **Area Learning**](./Tutorials/Chapter_08.md)
+* [Chapter 9 - **Area Learning**](./Tutorials/Chapter_09.md)
     * Gap filling information about Tango Area Learning
-* [Chapter 9 - **Depth Perception**](./Tutorials/Chapter_09.md)
+* [Chapter 10 - **Depth Perception**](./Tutorials/Chapter_10.md)
     * Gap filling information about Tango Depth Perception
     
 <== [Section 2 - Graphics](../Section_02_Graphics) -- [Section 4 - Project](../Section_04_Project) ==>
