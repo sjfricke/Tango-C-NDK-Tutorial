@@ -1,4 +1,4 @@
-<== [Chapter 1](./Chapter_01.md) -- [Chapter 2.1](./Chapter_02_01.md) ==>
+<== [Chapter 1](./Chapter_01.md) -- [Chapter 3](./Chapter_03.md) ==>
 
 # Chapter 2 - Tango Device 101
 
@@ -32,4 +32,4 @@
 * **[3D Reconstruction Library API](https://developers.google.com/tango/apis/c/reconstruction/reference/)**
     * This API has a set of calls to help you scan and create 3D models from the data in front of the camera
 
-<== [Chapter 1](./Chapter_01.md) -- [Chapter 2.1](./Chapter_02_01.md) ==>
+<== [Chapter 1](./Chapter_01.md) -- [Chapter 3](./Chapter_03.md) ==>
