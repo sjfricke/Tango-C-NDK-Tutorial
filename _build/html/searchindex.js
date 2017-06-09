@@ -1,0 +1,1 @@
+Search.setIndex({docnames:["README"],envversion:52,filenames:["README.rst"],objects:{},objnames:{},objtypes:{},terms:{index:0,modul:0,page:0,search:0},titles:["Welcome to Tango-C-NDK-Tutorials\u2019s documentation!"],titleterms:{document:0,indic:0,ndk:0,tabl:0,tango:0,tutori:0,welcom:0}})
