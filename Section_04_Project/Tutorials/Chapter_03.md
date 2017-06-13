@@ -4,7 +4,7 @@
 
 So one of the big things we need to do is make sure we correctly load the right version of the Tango API Library. Luckily Google has already designed a nice helper class which I see no reason really changing, but also no reason not to modify it if needed. [Tango Initialization Helper Code](../Sample_Code/Tango-NDK-Tutorial/app/src/main/java/com/demo/tutorial/tango/tango_ndk_tutorial/TangoInitializationHelper.java)
 
-* **NOTE:** remeber that all new code is going in the `/main/` folder, not the `/test/` or `/androidTest/`
+* **NOTE:** remember that all new code is going in the `/main/` folder, not the `/test/` or `/androidTest/`
 * Go to the Project directory on the side and right click the java folder where your `MainActivity` lives and add a new class called `TangoInitializationHelper`
     * ![TangoInitializationHelper Class](../Images/TangoInitializationHelper_Class.png)
 * For this file I would just copy and paste [the code sample](../Sample_Code/Tango-NDK-Tutorial/app/src/main/java/com/demo/tutorial/tango/tango_ndk_tutorial/TangoInitializationHelper.java)

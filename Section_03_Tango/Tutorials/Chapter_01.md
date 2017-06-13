@@ -1,6 +1,6 @@
 <== [Section 3 - Tango](../README.md) -- [Chapter 2](./Chapter_02.md) ==>
 
-# Chapter 1 - Techincal Stuff
+# Chapter 1 - Technical Stuff
 There a few "Code Technical" methods the Tango API uses and this chapter is only for those who are new to these ideas. These are things that are not specific to Tango, but rather to programming and C++ as a whole and should be understood before banging your head not understanding how things work. For those who have been around the block a few times and are good on this should feel free to jump to next chapter!
 
 ## Callbacks

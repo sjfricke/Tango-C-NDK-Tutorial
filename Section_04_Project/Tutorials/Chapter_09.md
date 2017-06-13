@@ -44,7 +44,7 @@ APP_STL := gnustl_static
 APP_PLATFORM := android-23
 ```
 * Note we have option to compile for both ArmV7 and ArmV8 in the `APP_ABI`
-	* Almost all mobile phones are built on Arm achitecture and we are just setting which architecture we are going to build for
+	* Almost all mobile phones are built on Arm architecture and we are just setting which architecture we are going to build for
 * We are using gnustl_static and not the c++ std, why, I am not quite sure actually if we need it for Tango
 	* You will find that gnustl_static doesn't have a `std::to_string()` method which gets annoying
 	* [APP_STL details](https://developer.android.com/ndk/guides/cpp-support.html)

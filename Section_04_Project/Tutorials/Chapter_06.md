@@ -1,7 +1,7 @@
 <== [Chapter 5](./Chapter_05.md) -- [Chapter 7](./Chapter_07.md) ==>
 
 # Chapter 6  - JNI C/C++ Interface
-We now need to create an interface layer that will take our `native function()` Java code and forward it to our native C/C++ implentation of the function. [JNI Interface Code](../Sample_Code/Tango-NDK-Tutorial/app/src/main/cpp/native-lib.cpp)
+We now need to create an interface layer that will take our `native function()` Java code and forward it to our native C/C++ implementation of the function. [JNI Interface Code](../Sample_Code/Tango-NDK-Tutorial/app/src/main/cpp/native-lib.cpp)
 
 * The first thing we want to do is add `#include <jni.h>` to get access to the JNI class
 * To ensure that the names declared in that portion of code have C linkage, and thus C++ name mangling is not performed we add these macro to surround the class

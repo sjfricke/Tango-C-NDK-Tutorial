@@ -18,7 +18,7 @@ The first thing we should do is setup the `AndroidManifest.xml` file to get all 
 * **IMPORTANT:** You need to give permission to the camera or Tango will not be able to get data from it making this all pretty pointless already.
 	* This is done by adding the `<uses-permission android:name="android.permission.CAMERA" />` line
 	* More information about Android permissions for things like ADF files [check the documentation](https://developers.google.com/tango/apis/c/c-user-permissions)
-* We plan to use OpenGL ES 3.1 which is guarenteed to work on all current capable Tango devices.
+* We plan to use OpenGL ES 3.1 which is guaranteed to work on all current capable Tango devices.
     
 * We now need to add this in our `<Applicataion>` tag
     

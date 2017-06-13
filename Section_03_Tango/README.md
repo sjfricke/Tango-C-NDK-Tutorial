@@ -18,8 +18,8 @@
 * A set of examples for each call (Note: this would be a cool feature to add to doc in future!)
 
 # Table Of Content
-* [Chapter 1 - **Techincal Stuff**](./Tutorials/Chapter_01.md)
-	* Some Coding related techincal stuff
+* [Chapter 1 - **Technical Stuff**](./Tutorials/Chapter_01.md)
+	* Some Coding related Technical stuff
 * [Chapter 2 - **Tango Device 101**](./Tutorials/Chapter_02.md)
     * Quick overview about the Tango Device
 * [Chapter 3 - **Client API**](./Tutorials/Chapter_03.md)

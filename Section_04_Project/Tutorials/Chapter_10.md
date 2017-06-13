@@ -15,7 +15,7 @@ Now that we have got our Gradle working correctly we can now more easily work on
 * To make things easier we also define some logging tools in this demo so we log out to logcat easier
 	* Example: `LOGI("You will see this part printed out in logcat with value %d", someValue)`
 	* This works the same as `printf` formatting
-	* With this you will be able to filter out all the *Tutorial_TAG* logs later so make sure to use a meaniful naming for the tags of your logs to make debugging easier.
+	* With this you will be able to filter out all the *Tutorial_TAG* logs later so make sure to use a meaningful naming for the tags of your logs to make debugging easier.
 		* Change the `#define LOG_TAG "Tutorial_TAG"` with a different tag if you want
 * The rest of the header is very standard for C++ programmer, but will help fill a few gaps if you are new to that (I would highly suggest learning about standard C++ OOP before getting knee deep in NDK development)
 	* Since we included this header in our `native-lib.cpp` file we need to make sure to declare each function
@@ -26,7 +26,7 @@ Now that we have got our Gradle working correctly we can now more easily work on
 You Made it! If you got here you got through the boring setup and now we can start coding with the Tango API!
 
 * This file is split into our main Tango usage in the `namespace tango_tutorial {}` while we create an *anonymous namespace* above to keep hold of more general items
-* If you are not up too speed with some of the techincal aspect going on make sure to checkout the [Coding Techincal Stuff Section](../../Section_03_Tango/Tutorials/Chapter_01.md#error-type)
+* If you are not up to speed with some of the technical aspect going on make sure to checkout the [Coding technical Stuff Section](../../Section_03_Tango/Tutorials/Chapter_01.md#error-type)
 
 ### void Tango_NDK_Tutorial::OnCreate
 * We need to first address what to do when our MainActivity calls the `onCreate` function
@@ -34,14 +34,14 @@ You Made it! If you got here you got through the boring setup and now we can sta
 to `version`
 * We then can compare the version with a minimum version we have set to prevent people with outdated Tango to use our application
 	* Note I have yet to find anywhere online what core version are needed to use features, but I figure this is for future ground breaking changes they might add one day.
-	* Currently I am running verison 16016 as of writing this tutorial
+	* Currently I am running version 16016 as of writing this tutorial
 
 ### void Tango_NDK_Tutorial::OnTangoServiceConnected
 This is where we do all of our *setup* and get Tango up and running
 
 * First we need to just run `TangoService_setBinder(env, iBinder)` which will take the `JNIEnv* env, jobject iBinder` values passed in
 	* This is how Tango takes in the `IBinder service` value we created in our Java MainActivity.
-	* This right here will link the Tango service and we can techinically begin using it if it returns `TANGO_SUCCESS`
+	* This right here will link the Tango service and we can technically begin using it if it returns `TANGO_SUCCESS`
 
 * Next we need to setup our `TangoConfig tango_config_` value.
 * Tango comes with many different API features and it would be wasteful to turn them all on if we are not using them all. To save power and processing we tell Tango which feature we want to use in our TangoConfig value
@@ -60,7 +60,7 @@ This is where we do all of our *setup* and get Tango up and running
 		```
 		* Here we make a call first to `TangoConfig_setBool` to toggle on the setting and then another to `TangoConfig_setInt32` to tell what depth mode options we want to include as well
 		* Again, you will need to consult the [Tango Config Reference](https://developers.google.com/tango/apis/c/reference/group/config-params) for knowing what you need to enable and set
-* Next since we are using the Motion sensor we need to tell Tango abour the Frame of Reference being used
+* Next since we are using the Motion sensor we need to tell Tango about the Frame of Reference being used
 	* More info about that can be found in [Frame of Reference Chapter](../../Section_03_Tango/Tutorials/Chapter_07.md)
 * Once we set our `TangoCoordinateFramePair` to be what we want we need to call the `TangoService_connectOnPoseAvailable` function to set up what do with our position data.
 	* The first two arguments are for telling which `TangoCoordinateFramePair` to use
@@ -71,7 +71,7 @@ This is where we do all of our *setup* and get Tango up and running
 If we pause our application we need to take the correct steps to get Tango disconnected correctly. What we need to do is well self documented from good naming conventions on Tango's part.
 
 * The first thing we call is `TangoConfig_free(tango_config_);` which will properly free the `TangoConfig` object
-* It is good memory managment practice to set the point to null to prevent it being seen as valid else where in the program
+* It is good memory management practice to set the point to null to prevent it being seen as valid elsewhere in the program
 	* `tango_config_ = nullptr;`
 * Last we call `TangoService_disconnect();` where Tango will unbind the service for use we have on it
 
