@@ -7,8 +7,8 @@ Here we are going to walk through setting up a new project using Android Studio.
 # Important Disclaimers
 * Here are the settings this project was built with
 	* Tested with both Windows 10 and Ubuntu 16.04
-    * Using Android Studio 2.3.2
-    * NDK r14
+    * Using Android Studio 2.3.2 and 2.3.3
+    * NDK r14 and r15
     * Android API 23
         * If you have the devkit this **might** cause issues, was hoping we are past the devkit stage with Tango
 
