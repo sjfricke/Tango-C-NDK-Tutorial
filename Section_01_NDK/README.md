@@ -4,20 +4,21 @@
 * A big part of working with [Tango C/C++ API](https://developers.google.com/tango/apis/c/) is understanding the world of [Andorid NDK](https://developer.android.com/ndk/index.html)
 
 ## What This Section Is
-* A set of tutorials to get you up on the basic of NDK
-* A way of teaching the difference between a "NDK Problem" and a "Tango Problem" as you start developing
-* All the NDK info to get a basic Tango project going and being capable of configuring it
-* How to layout a NDK project and all its different sections
+* A set of tutorials to get you up on the basic of NDK.
+* A way of teaching the difference between a "NDK Problem" and a "Tango Problem" as you start developing.
+* All the NDK info to get a basic Tango project going and being capable of configuring it.
+* How to layout a NDK project and all its different sections.
 
 ## What This Section Is NOT
 * A way to learn about the Tango API
     * That is [Section 3](../Section_03_Tango)
     
 ### Android Studio
-* The preferred way as shown in these tutorials is to use Android Studio
+* The preferred way as shown in these tutorials is to use Android Studio.
+	* Android Studio version 2.3.2 or higher
 * However, we will still reference everything agnostic to your personal preference of work environment.
-    * You are totally capable of using any other IDE
-        * Maybe you just want to do it all in emacs, be my guest
+    * You are totally capable of using any other IDE.
+        * Maybe you just want to do it all in emacs, be my guest.
     
 ### Windows, Mac, Linux
 * All these tutorials work for any OS, but for arts that don't we will mention the differences needed to know.
