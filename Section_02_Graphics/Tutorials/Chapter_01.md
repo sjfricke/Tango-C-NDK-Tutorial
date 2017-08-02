@@ -41,6 +41,14 @@
 * If you want help there is a nice [tango_gl repo](https://github.com/sjfricke/tango_gl) we personally forked from the Google samples to make more capable of advanced tasks
     * It is not a full fledge OpenGL library, but it takes care of the whole matrix math of outputting your renderings to the screen and moving on camera movement
 
+## Vulkan and my Tango
+* Currently the Phab 2 Pro only supports Android M (API 23). Once there is an update for Android N then all Tango production devices will be capable to support Vulkan.
+
+## WebGL and my Tango
+* Google has created an experimental WebAR [branch of Chromium]() that can run on a Tango enabled device.
+* It uses the Tango NDK to API calls wrapped in a way to be called safely from the browser.
+* **NOTE** This is a experimental project and a cross web standard will be needed before you can rely on it being used in a production build.
+
 ## What is the fastest way to learn OpenGL ES
 * ... We were really hoping you weren't going to ask this, some of us may have personally have been fortunate to take a course while studying in college on graphical programming. The real question is not "how do I learn OpenGL ES" but rather "how do I learn graphical programming and the whole graphic pipeline"
 * This question can be taught in two ways
