@@ -7,25 +7,24 @@
 * Each file format is given a standard/protocol how to store the data for a 3D model.
 * It is up to the application to unpack it, parse it, and format it the way to allow for use in the application.
 
-## OBJ files
-* The easiest way to add a model to your AR world is via `.obj` files. These are easy to work with since they are written in plain text. The overall structure can be read more from [detail online](https://en.wikipedia.org/wiki/Wavefront_.obj_file)
-* Each `.obj` file can have a pairing `.mtl` file which is the Material file. This file gives the color and possible image path for how the part of the UV it covers looks. 
-* As of now there is no good way (that I know of at least) to read in the file since the entire NDK file is compressed and even with the use of the Asset_Manager the `.obj` file is just about unreachable and the *Hack* we found around it is to use one of these file names for the .obj file and pass it in the .obj loader anyway
+## [OBJ files](https://en.wikipedia.org/wiki/Wavefront_.obj_file)
+* The easiest way to add a model to your AR world is via `.obj` files. These are easy to work with since they are written in plain text.
+* Each `.obj` file can have a pairing `.mtl` file which is the Material file. This file gives the color and possible image path for how the part of the UV it covers looks.
+* **Note:** OBJ files only represent geometrey and can not hold information about animation.
 
-```
-static const char* kNoCompressExt[] = {
-    ".jpg", ".jpeg", ".png", ".gif",
-    ".wav", ".mp2", ".mp3", ".ogg", ".aac",
-    ".mpg", ".mpeg", ".mid", ".midi", ".smf", ".jet",
-    ".rtttl", ".imy", ".xmf", ".mp4", ".m4a",
-    ".m4v", ".3gp", ".3gpp", ".3g2", ".3gpp2",
-    ".amr", ".awb", ".wma", ".wmv"
-};
-```
+## [PLY files](https://en.wikipedia.org/wiki/PLY_%28file_format%29)
+* This is like the OBJ files that is designed to be human readable, but is used for point cloud data.
+* PLY files is comprised of a header section where it represents all meta data.
+* The rest of the file is listing all the values of each point in the point cloud
+
+## [Draco](https://google.github.io/draco/)
+* Draco is an open-source library for compressing and decompressing 3D geometric meshes and point clouds. It is intended to improve the storage and transmission of 3D graphics.
+
+## [glTF](https://www.khronos.org/gltf)
+* Specification for the efficient transmission and loading of 3D scenes and models by applications.
+* Minimizes both the size of 3D assets, and the runtime processing needed to unpack and use those assets.
+
 ## NOTE
 * In the Google samples they store all the data in a header file which works but also defeats the simplicity of just taking in any valid `.obj` file.
-
-# HELP
-* If you know a better way to open and read an .obj file without having to change its extension, let us know!
 
 <== [Chapter 3](./Chapter_03.md)
