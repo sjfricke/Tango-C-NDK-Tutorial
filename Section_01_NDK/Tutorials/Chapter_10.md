@@ -3,23 +3,33 @@
 # Chapter 10 - The Makefiles
 
 ## ndk-build
-* So it is possible to use CMake or ndk-build for building your project
-* We will be using ndk-build
-* CMake is definitely the "newer" choice to use as it is compatible with various other platforms
-* Since Tango is a Android platform specific project, I feel justified to use ndk-build
+* So it is possible to use CMake or ndk-build for building your project.
+  * We will be using ndk-build in this tutorial.
+* CMake is definitely the "newer" choice to use as it is compatible with various other platforms.
+* Since Tango is a Android platform specific project, I feel justified to use ndk-build.
 * **Honesty:** I don't know how to build NDK in CMake and anyone who does **please** add it!
 
 ![Makefiles](../Images/Makefiles.png)
 
-Now that we have our code, we need to make sure that everything gets built correctly so we can package the APK to the device. These two files will be used when `ndk-build` is ran
+Now that we have our code, we need to make sure that everything gets built correctly so we can package the APK to the device. These two files will be used when `ndk-build` is ran which should be placed in a your Module `build.gradle` file.
+
+```
+externalNativeBuild {
+  ndkBuild {
+    path 'src/main/cpp/Android.mk'
+  }
+}
+```
 
 ## Applicaiton.mk
 * This file is where all the more hardware specific options are set
-* `APP_ABI := armeabi-v7a arm64-v8a x86`
-	* List all the different ISA to build for. You will see a build for each on listed
-		* armeabi-v7a is used by the dev kit
-		* arm64-v8a is used by the Lenovo Phab 2 Pro
-		* The Android OS will only install the correct version of the compiled build so unless needed, its suggested to keep all main types listed
+* `APP_ABI := armeabi-v7a arm64-v8a`
+	* List all the different ISA to build for, you will see a build for each on listed.
+		* armeabi-v7a is used by the dev kit.
+		* arm64-v8a is used by the Lenovo Phab 2 Pro.
+      * (armeabi-v7a == 32-bit system)
+      * ( arm64-v8a  == 64-bit system)
+		* The Android OS will only install the correct version of the compiled build so unless needed, its suggested to keep all main types listed.
 * `APP_STL := gnustl_static`
 	* The *system* runtime is the default if there is no APP_STL definition.
     * You can only select a single C++ runtime that all your code will depend on.
@@ -35,9 +45,9 @@ Now that we have our code, we need to make sure that everything gets built corre
 * **ALSO** here is the official guide sheet [from Google](https://developer.android.com/ndk/guides/android_mk.html)
 
 #### In-depth
-* This is where you list all the files you want to compile
-* If you add libraries, like tango_gl, need to include its source and headers
-* Let's take an example and break it down
+* This is where you list all the files you want to compile.
+* If you add other files, like `tango_gl` in this case, you need to include its source and headers.
+* Let's take an example and break it down:
 
 ```
 LOCAL_PATH := $(call my-dir)
