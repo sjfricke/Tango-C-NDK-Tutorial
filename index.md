@@ -12,12 +12,9 @@ Helping those who want to get involved in the realm of Augmented Reality using b
 ## Did you see something wrong?
 * PLEASE PLEASE **PLEASE** correct it! I am no expert by any means and I am just trying to help with what I can. I would **LOVE** this to become a community built guide!
 
-## Community
-* I (sjfricke) started this with the intention to make this a community driven tutorial, so **we** are happy for all to help and hope that this grows.
-
 ------
 
-# BIG-IMPORTANT-NOTE
+# THE THREE THINGS YOU NEED TO KNOW!
 * Working with Tango for a while we find working with it comes down to knowing 3 major components:
     1. [Android NDK](./Section_01_NDK)
     2. [Graphics (OpenGL ES)](./Section_02_Graphics)

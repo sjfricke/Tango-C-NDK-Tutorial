@@ -2,11 +2,11 @@
 
 # Chapter 2 - What is NDK
 
-You first must understand the trade-offs you are giving when using NDK before you start heading head first into it.
+You first must understand the trade-offs you are giving when using NDK before you start diving head first into it.
 
 ## NDK
-* Stands for Native Development Kit
-    * As compared to SDK which is Software Development 
+* Stands for *Native Development Kit*
+    * As compared to SDK which is *Software Development Kit*
 * The first thing is to understand **why** you would use the Android NDK
     * If you are doing stuff that involves more need of real time data processing you will have a reason to use the NDK
         * Two common cases are signal processing and graphical related tasks
@@ -28,10 +28,10 @@ You first must understand the trade-offs you are giving when using NDK before yo
 
 ## Building the Project (CMake vs ndk-build)
 * There is more about this in the [makefile](./Chapter_08.md) chapter.
-* You can use either CMake or ndk-build for building your project together.
+* You can use either `CMake` or `ndk-build` for building your project together.
 * Build tools are programs that automate the creation of executable applications from source code.
-    * Building incorporates compiling,linking and packaging the code into a usable or executable form.
-    * In android the output of the build is the `.apk` file that loads on a device.
+    * Building incorporates compiling, linking and packaging the code into a usable or executable form.
+    * In android the output of the build is the `.apk` file that is loaded and installed on a device.
 * **Note:** The advantage of CMake is it will make compiling for different systems possible, but Tango is currently only intended to ever be an Android technology so ndk-build is very valid and acceptable in this case to still use.
 
 ## Breaking down NDK

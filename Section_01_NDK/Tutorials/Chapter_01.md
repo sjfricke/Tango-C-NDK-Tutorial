@@ -25,9 +25,10 @@ Before we can get all into Android NDK, we need to cover some basic generic Andr
 
 ## Gradle
 * So hopefully doing some C++ development you are familiar with the concept of makefiles, well that is a good way to think of what gradle is for Java and more importantly Android.
-* Gradle works off two basic concepts: `projects` and `tasks`
-* `build.gradle` is the file with all the commands to run
-* `gradlew` is just a [gradle wrapper](https://docs.gradle.org/current/userguide/gradle_wrapper.html)
+	* Gradle is a task running system that has been mainly popular for Java based development.
+* Gradle works off two basic concepts: `projects` and `tasks`.
+* `build.gradle` is the file with all the commands to run.
+* `gradlew` is just a [gradle wrapper](https://docs.gradle.org/current/userguide/gradle_wrapper.html).
 * The main thing for now is to understand that Gradle is what is taking care of building and compiling the code for most the app.
 
 ## AndroidManifest.xml
@@ -37,5 +38,6 @@ Before we can get all into Android NDK, we need to cover some basic generic Andr
     * Giving permission to different parts of the device
     * etc
 * [More info](https://developer.android.com/guide/topics/manifest/manifest-intro.html)
+* **NOTE:** Every developer will spend at least a good hour of their life trying to figure out why they can't get the internet to work, camera to take picture, etc... make sure you grant permissions to use any external component of the phone in the manifest file... you have been warn!
 
 <== [Section 1 - NDK](../README.md) -- [Chapter 2](./Chapter_02.md) ==>
