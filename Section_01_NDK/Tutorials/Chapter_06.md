@@ -40,21 +40,6 @@ Because C++ and Java have different data types, we need to use JNI data types to
 
 * **Note:** there is a JNI array type for each of the different primitive types as well.
 
-## Setting up the JVM
-* We optionally can to store a reference to the Java Virtual Machine so that we can call into the Java layer to trigger rendering or call back up from the native code to the Java layer.
-
-```
-jint JNI_OnLoad(JavaVM* vm, void*) {}
-  app.SetJavaVM(vm);
-  return JNI_VERSION_1_6;
-}
-
-// This part can be anywhere else in your code ...
-JavaVM* java_vm_;
-void SetJavaVM(JavaVM* java_vm) { java_vm_ = java_vm; }
-```
-* With this we will now have reference to the JVM held in our C++ class of choice.
-
 ## Bridging the function calls
 * For this example image we called `public static native void onGlSurfaceChanged(int width, int height);` from the Java thread and will need to create a JNI function call to handle it.
 * `JNIEXPORT void JNICALL` will 

@@ -27,7 +27,7 @@ You first must understand the trade-offs you are giving when using NDK before yo
 * Using Java Native Interface (JNI) we will send all UI events down to where all our native C/C++ code is written.
 
 ## Building the Project (CMake vs ndk-build)
-* There is more about this in the [makefile](./Chapter_08.md) chapter.
+* There is more about this in the [makefile](./Chapter_10.md) chapter.
 * You can use either `CMake` or `ndk-build` for building your project together.
 * Build tools are programs that automate the creation of executable applications from source code.
     * Building incorporates compiling, linking and packaging the code into a usable or executable form.

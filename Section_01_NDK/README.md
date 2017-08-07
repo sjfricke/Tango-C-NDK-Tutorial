@@ -35,13 +35,15 @@
     * Header file to link native and Java together.
 * [Chapter 7 - **The Native Code**](./Tutorials/Chapter_07.md)
     * Writing native C code.
-* [Chapter 8 - **The Makefiles**](./Tutorials/Chapter_08.md)
+* [Chapter 8 - **Adding a GUI**](./Tutorials/Chapter_08.md)
+    * How to add a button and other GUI elements.     
+* [Chapter 9 - **Native to Java**](./Tutorials/Chapter_09.md)
+    * How to send data from Native layer to Java.     
+* [Chapter 10 - **The Makefiles**](./Tutorials/Chapter_10.md)
     * Using ndk-build to build the project.
-* [Chapter 9 - **Adding a library**](./Tutorials/Chapter_09.md)
+* [Chapter 11 - **Adding a library**](./Tutorials/Chapter_11.md)
     * How to add libraries to your project.
-* [Chapter 10 - **Debugging**](./Tutorials/Chapter_10.md)
-    * How to use adb and logcat to debug.	
-* [Chapter 11 - **Adding a GUI**](./Tutorials/Chapter_11.md)
-    * How to add a button and other GUI elements.        
+* [Chapter 12 - **Debugging**](./Tutorials/Chapter_12.md)
+    * How to use adb and logcat to debug.
         
 [Section 2 - Graphics](../Section_02_Graphics) ==>
