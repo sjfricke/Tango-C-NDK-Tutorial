@@ -46,6 +46,7 @@ There are a few different common Graphic APIs
 ## Vulkan and my Tango
 * Currently the Phab 2 Pro only supports Android M (API 23). Once there is an update for Android N then all Tango production devices will be capable to support Vulkan.
     * Vulkan only runs on Android N or higher.
+    * **Update:** The Phab 2 Pro is now not expected to get an [Android N Update](https://phandroid.com/2017/08/11/lenovo-phab-2-pro-android-nougat-update/)
 
 ## WebGL and my Tango
 * Google has created an experimental WebAR [branch of Chromium](https://github.com/googlevr/chromium-webar) that can run on a Tango enabled device.
