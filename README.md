@@ -1,6 +1,9 @@
 # Tango-C-NDK-Tutorial
 Helping those who want to get involved in the realm of Augmented Reality using both [Google Project Tango](https://get.google.com/tango/) and its [C/C++ API](https://developers.google.com/tango/apis/c/).
 
+# Project Status
+**Project Tango will be deprecated on March 1st, 2018, and will be moved to the [googlearchive](//github.com/googlearchive) Github organization. Access to the Tango API is unaffected (since it's an on-device APIs), but we will no longer support and update Tango.**
+
 ------
 
 ## Who is this for?
